@@ -1,0 +1,191 @@
+!ENTRY org.jkiss.dbeaver.model 1 26 2025-09-08 20:03:47.504
+!MESSAGE SELECT dr.* FROM public.decommissioned_reactors AS dr
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:03:47.508
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 26 2025-09-08 20:05:39.524
+!MESSAGE SELECT dr.* FROM public.decommissioned_reactors AS dr
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:05:39.526
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 95 2025-09-08 20:16:02.248
+!MESSAGE SELECT
+	reactor_type
+FROM
+	operational_reactors
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:16:02.254
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 129 2025-09-08 20:18:04.620
+!MESSAGE SELECT os.* FROM public.outage_statistics_2023 AS os
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:18:04.624
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 139 2025-09-08 20:18:33.055
+!MESSAGE SELECT
+	reactor_type_code
+FROM
+	outage_statistics_2023
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:18:33.057
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 141 2025-09-08 20:19:10.180
+!MESSAGE SELECT
+	reactor_type_code,
+	full_outage_hours_per_unit
+FROM
+	outage_statistics_2023
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:19:10.209
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 163 2025-09-08 20:19:55.435
+!MESSAGE SELECT
+	reactor_type_code,
+	full_outage_hours_per_unit
+FROM
+	outage_statistics_2023
+GROUP BY
+	full_outage_hours_per_unit DESC
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2025-09-08 20:19:55.444
+!MESSAGE ERROR: syntax error at or near "DESC"
+  Position: 128
+
+!ENTRY org.jkiss.dbeaver.model 1 165 2025-09-08 20:20:00.576
+!MESSAGE SELECT
+	reactor_type_code,
+	full_outage_hours_per_unit
+FROM
+	outage_statistics_2023
+GROUP BY
+	full_outage_hours_per_unit DESC
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2025-09-08 20:20:00.577
+!MESSAGE ERROR: syntax error at or near "DESC"
+  Position: 128
+
+!ENTRY org.jkiss.dbeaver.model 1 167 2025-09-08 20:20:09.950
+!MESSAGE SELECT
+	reactor_type_code,
+	full_outage_hours_per_unit
+FROM
+	outage_statistics_2023
+GROUP BY
+	full_outage_hours_per_unit 
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2025-09-08 20:20:09.954
+!MESSAGE ERROR: column "outage_statistics_2023.reactor_type_code" must appear in the GROUP BY clause or be used in an aggregate function
+  Position: 10
+
+!ENTRY org.jkiss.dbeaver.model 1 189 2025-09-08 20:20:22.050
+!MESSAGE SELECT
+	reactor_type_code,
+	full_outage_hours_per_unit
+FROM
+	outage_statistics_2023
+ORDER BY
+	full_outage_hours_per_unit DESC
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:20:22.229
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 0 197 2025-09-08 20:20:47.977
+!MESSAGE COMMIT
+
+!ENTRY org.jkiss.dbeaver.model 1 209 2025-09-08 20:30:09.349
+!MESSAGE SELECT 
+	net_capacity_mwe,
+	grid_connection_date
+FROM
+	operational_reactors
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:30:09.480
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 211 2025-09-08 20:31:14.567
+!MESSAGE SELECT 
+	net_capacity_mwe,
+	grid_connection_date
+FROM
+	operational_reactors
+ORDER BY
+	net_capacity_mwe DESC,
+	grid_connection_date ASC
+	
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:31:14.599
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 213 2025-09-08 20:31:20.178
+!MESSAGE SELECT 
+	net_capacity_mwe,
+	grid_connection_date
+FROM
+	operational_reactors
+ORDER BY
+	net_capacity_mwe DESC,
+	grid_connection_date ASC
+	
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:31:20.232
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 215 2025-09-08 20:31:46.736
+!MESSAGE SELECT 
+	net_capacity_mwe,
+	grid_connection_date
+FROM
+	operational_reactors
+ORDER BY
+	net_capacity_mwe DESC,
+	grid_connection_date DESC
+	
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:31:46.786
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 217 2025-09-08 20:31:55.054
+!MESSAGE SELECT 
+	net_capacity_mwe,
+	grid_connection_date
+FROM
+	operational_reactors
+ORDER BY
+	net_capacity_mwe DESC,
+	grid_connection_date ASC
+	
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:31:55.089
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 219 2025-09-08 20:32:11.953
+!MESSAGE SELECT net_capacity_mwe, grid_connection_date FROM operational_reactors ORDER BY net_capacity_mwe DESC, grid_connection_date ASC, grid_connection_date
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:32:11.986
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 221 2025-09-08 20:32:14.338
+!MESSAGE SELECT net_capacity_mwe, grid_connection_date FROM operational_reactors ORDER BY net_capacity_mwe DESC, grid_connection_date ASC, grid_connection_date DESC
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:32:14.340
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 223 2025-09-08 20:32:16.468
+!MESSAGE SELECT net_capacity_mwe, grid_connection_date FROM operational_reactors ORDER BY net_capacity_mwe DESC, grid_connection_date ASC, grid_connection_date
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:32:16.501
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 225 2025-09-08 20:32:18.786
+!MESSAGE SELECT net_capacity_mwe, grid_connection_date FROM operational_reactors ORDER BY net_capacity_mwe DESC, grid_connection_date ASC, grid_connection_date
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:32:18.787
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 227 2025-09-08 20:32:20.141
+!MESSAGE SELECT net_capacity_mwe, grid_connection_date FROM operational_reactors ORDER BY net_capacity_mwe DESC, grid_connection_date ASC, grid_connection_date
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:32:20.203
+!MESSAGE SUCCESS [-1]
+
+!ENTRY org.jkiss.dbeaver.model 1 229 2025-09-08 20:32:39.056
+!MESSAGE SELECT 
+	net_capacity_mwe,
+	grid_connection_date,
+	reactor_name
+FROM
+	operational_reactors
+ORDER BY
+	net_capacity_mwe DESC,
+	grid_connection_date ASC
+	
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-09-08 20:32:39.111
+!MESSAGE SUCCESS [-1]
+

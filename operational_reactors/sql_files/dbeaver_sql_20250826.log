@@ -1,0 +1,5 @@
+!ENTRY org.jkiss.dbeaver.model 1 39 2025-08-26 20:39:02.504
+!MESSAGE SELECT or2.* FROM public.operational_reactors AS or2
+!SUBENTRY 1 org.jkiss.dbeaver.model 1 0 2025-08-26 20:39:02.510
+!MESSAGE SUCCESS [-1]
+
