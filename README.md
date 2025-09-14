@@ -35,11 +35,12 @@
   
   ## Questions
   ### What are the major demographics and industry leaders for nuclear power since 1954?
-  **What is the most common reactor type and for each country? What is the percentage for each reactor type for each country?**
+  **1. What is the most common reactor type and for each country? What is the percentage for each reactor type for each country?**
 - SQL Query and Raw Data:
   - [Counts total reactors per type worldwide](https://github.com/user-attachments/assets/aedb2912-e5bb-4f7d-9684-75d586dc36f5)
   - [Each reactor type for each country](https://github.com/user-attachments/assets/dfd1b897-b28d-4b4d-8379-69ac4d1700e8)
   - [CTE to find country reactor type percentage of all operational reactors per country](https://github.com/user-attachments/assets/bdd409f1-342e-48e7-a17a-79b62214fdb9)
+      
 - Visualization
   - Each reactor type for each country:
     <img width="1600" height="800" alt="Q1" src="https://github.com/user-attachments/assets/d1f47670-aabb-4c5d-a609-81b0ef2ac809" />
@@ -52,6 +53,32 @@
 
 - Interpretation and Use:
   - This section focused on the reactor types and was incredibily insightful to which reactor types the world and each country priotizes. It is clear that pressurized water reactors are the top choice for a lot of countries. Now we can investigate that further as to why, is it cost effective, safe, or really effiecent at using resources for energy? This is a great first step into discovering the nuclear energy landscape. 
+
+**2. Who is the top reactor supplier and operator for specefic countries and reactor types?**
+- SQL Query and Raw Data:
+  - [Finds the top nuclear reactor operators](https://github.com/user-attachments/assets/47938609-9f11-4b91-9d8c-6d191ba76d2d)
+  - [CTE to find the percentage of operator share of the total nuclear reactor market](https://github.com/user-attachments/assets/1b05c702-6aeb-4cc6-8537-515f27b9e389)
+  - [Finds the top nuclear reactor suppliers](https://github.com/user-attachments/assets/9f706c23-fac5-4314-8351-4e2d5698505f)
+  - [CTE to find the percentage of supplier share of the total nuclear reactor market](https://github.com/user-attachments/assets/481e7934-81a5-4daa-9e0f-dcc7712524a8)
+  - [Finds top suppliers for nuclear reactor type](https://github.com/user-attachments/assets/25fcbff4-0c2f-48aa-a3da-dd96d6e35e26)
+  - [Finds top operators for nuclear reactor type](https://github.com/user-attachments/assets/5fd2952a-3608-4da8-90da-0b3c79515780)
+  - [Finds the relationships between reactor suppliers and operators](https://github.com/user-attachments/assets/8dbd4a81-8df7-4957-9d4c-8efa9c331a84)
+  - [Finds the relationships between reactor suppliers and operators in the USA](https://github.com/user-attachments/assets/d6a2dd33-68ef-4b85-a945-749df0dc4899)
+
+
+- Visualization
+  - Nuclear reactors by operator:
+    <img width="2062" height="1600" alt="image" src="https://github.com/user-attachments/assets/5b891a10-9c88-4ec2-829c-f55ffc2f0006" />
+    
+  - Nuclear reactors by supplier:
+    <img width="2841" height="1580" alt="image" src="https://github.com/user-attachments/assets/c0ed3d2c-97b2-49a6-812d-877b096a0bc0" />
+
+  - Nuclear reactors by supplier and operator relationships
+   <img width="3159" height="1180" alt="image" src="https://github.com/user-attachments/assets/80698c40-2539-41f4-ac67-6be9c14510b5" />
+
+ 
+- Interpretation and Use:
+  - This section focused on the supplier and operator data. This is a good section for potential investors into nuclear reactors to get a general idea of who owns majority of the reactors and supplies them as well. This can be potentially expanded into finding the financials into reactor data per supplier and operator but for now it's good starting point for general data. 
 
   ### How good is the operational performance and efficiency for current nuclear reactors around the world?
 
