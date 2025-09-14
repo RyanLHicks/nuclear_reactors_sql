@@ -45,11 +45,11 @@
   - Each reactor type for each country:
     <img width="1600" height="800" alt="Q1" src="https://github.com/user-attachments/assets/d1f47670-aabb-4c5d-a609-81b0ef2ac809" />
     
-  - Counts total reactors per type worldwide
+  - Counts total reactors per type worldwide:
     <img width="745" height="218" alt="image" src="https://github.com/user-attachments/assets/a0dcbf18-4839-4c0e-ba9b-c91d3d2e3a10" />
 
-  - CTE to find country reactor type percentage of all operational reactors per country
-    <img width="3180" height="1779" alt="Q1_4" src="https://github.com/user-attachments/assets/1e0091c2-5600-4a64-be66-79c0fcb63aa8" />
+  - Country and reactor type percentage of all operational reactors:
+    <img width="2526" height="1139" alt="image" src="https://github.com/user-attachments/assets/0e717594-9c8c-425a-b65d-b2b7a946e4c5" />
 
 - Interpretation and Use:
   - This section focused on the reactor types and was incredibily insightful to which reactor types the world and each country priotizes. It is clear that pressurized water reactors are the top choice for a lot of countries. Now we can investigate that further as to why, is it cost effective, safe, or really effiecent at using resources for energy? This is a great first step into discovering the nuclear energy landscape. 
@@ -68,10 +68,10 @@
 
 - Visualization
   - Nuclear reactors by operator:
-    <img width="2062" height="1600" alt="image" src="https://github.com/user-attachments/assets/5b891a10-9c88-4ec2-829c-f55ffc2f0006" />
+    <img width="2537" height="1267" alt="image" src="https://github.com/user-attachments/assets/e8f4b529-d5a6-49ae-a28f-ddd5dbcc12bb" />
     
   - Nuclear reactors by supplier:
-    <img width="2841" height="1580" alt="image" src="https://github.com/user-attachments/assets/c0ed3d2c-97b2-49a6-812d-877b096a0bc0" />
+    <img width="2516" height="1139" alt="image" src="https://github.com/user-attachments/assets/47bcb065-82e5-45dd-8138-43bbbf060581" />
 
   - Nuclear reactors by supplier and operator relationships
    <img width="3159" height="1180" alt="image" src="https://github.com/user-attachments/assets/80698c40-2539-41f4-ac67-6be9c14510b5" />
