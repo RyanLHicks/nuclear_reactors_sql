@@ -35,12 +35,18 @@
   
   ## Questions
   ### What are the major demographics and industry leaders for nuclear power since 1954?
-  **1. What is the most common reactor type and for each country? What is the percentage for each reactor type for each country?**
+  #### **1. What reactor types are most involved in nuclear energy**
 - SQL Query and Raw Data:
   - [Counts total reactors per type worldwide](https://github.com/user-attachments/assets/aedb2912-e5bb-4f7d-9684-75d586dc36f5)
   - [Each reactor type for each country](https://github.com/user-attachments/assets/dfd1b897-b28d-4b4d-8379-69ac4d1700e8)
   - [CTE to find country reactor type percentage of all operational reactors per country](https://github.com/user-attachments/assets/bdd409f1-342e-48e7-a17a-79b62214fdb9)
-      
+  - [Finds the top producing reactor types in MWE](https://github.com/user-attachments/assets/b6cb9c77-b0df-4908-b04d-511f0df98a21)
+  - [Finds the percentage of top producing nuclear reactor types](https://github.com/user-attachments/assets/ef6dc24b-1f69-4ae9-801e-82f2651c242f)
+  - [Searches for the top producing nuclear reactor types per country](https://github.com/user-attachments/assets/1766badb-39e2-432a-8679-5db3b6dc39db)
+  - [Queries the total energy per reactor type](https://github.com/user-attachments/assets/373d5b7a-5162-4570-bb38-9c7b47fb2a8c)
+  - [Finds the top energy output reactor types for the USA](https://github.com/user-attachments/assets/2a8e2160-210b-404a-b9d0-dda5ac709d02)
+  - [Find the top energy output reactor types for top producing countries](https://github.com/user-attachments/assets/20e5b533-1286-4ded-8e89-858eeb0f196f)
+    
 - Visualization
   - Each reactor type for each country:
     <img width="1600" height="800" alt="Q1" src="https://github.com/user-attachments/assets/d1f47670-aabb-4c5d-a609-81b0ef2ac809" />
@@ -51,10 +57,16 @@
   - Country and reactor type percentage of all operational reactors:
     <img width="2526" height="1139" alt="image" src="https://github.com/user-attachments/assets/0e717594-9c8c-425a-b65d-b2b7a946e4c5" />
 
+  - Top producing reactor types by MWE
+    <img width="1000" height="600" alt="Q5-2" src="https://github.com/user-attachments/assets/aced4822-2b72-49ac-b166-aea93f1a711c" />
+
+  - Total energy production per reactor type
+    <img width="1000" height="600" alt="Q20" src="https://github.com/user-attachments/assets/0e03ef1f-f745-462c-b772-5bef6fbf998a" />
+
 - Interpretation and Use:
   - This section focused on the reactor types and was incredibily insightful to which reactor types the world and each country priotizes. It is clear that pressurized water reactors are the top choice for a lot of countries. Now we can investigate that further as to why, is it cost effective, safe, or really effiecent at using resources for energy? This is a great first step into discovering the nuclear energy landscape. 
 
-**2. Who is the top reactor supplier and operator for specefic countries and reactor types?**
+#### **2. Who are the reactor suppliers and operators contributing the most?**
 - SQL Query and Raw Data:
   - [Finds the top nuclear reactor operators](https://github.com/user-attachments/assets/47938609-9f11-4b91-9d8c-6d191ba76d2d)
   - [CTE to find the percentage of operator share of the total nuclear reactor market](https://github.com/user-attachments/assets/1b05c702-6aeb-4cc6-8537-515f27b9e389)
@@ -64,7 +76,7 @@
   - [Finds top operators for nuclear reactor type](https://github.com/user-attachments/assets/5fd2952a-3608-4da8-90da-0b3c79515780)
   - [Finds the relationships between reactor suppliers and operators](https://github.com/user-attachments/assets/8dbd4a81-8df7-4957-9d4c-8efa9c331a84)
   - [Finds the relationships between reactor suppliers and operators in the USA](https://github.com/user-attachments/assets/d6a2dd33-68ef-4b85-a945-749df0dc4899)
-
+  - [Find the suppliers contributing the most nuclear energy](https://github.com/user-attachments/assets/820df88a-4d65-4b72-bf4e-a638975d97c1)
 
 - Visualization
   - Nuclear reactors by operator:
@@ -78,7 +90,37 @@
 
  
 - Interpretation and Use:
-  - This section focused on the supplier and operator data. This is a good section for potential investors into nuclear reactors to get a general idea of who owns majority of the reactors and supplies them as well. This can be potentially expanded into finding the financials into reactor data per supplier and operator but for now it's good starting point for general data. 
+  - This section focused on the supplier and operator data. This is a good section for potential investors into nuclear reactors to get a general idea of who owns majority of the reactors and supplies them as well. This can be potentially expanded into finding the financials into reactor data per supplier and operator but for now it's good starting point for general data.
+
+#### **3. What countries are most involved with nuclear energy?**
+- SQL Query and Raw Data:
+  - [Counts total reactors per country and percent dominance](https://github.com/user-attachments/assets/103206b6-51dc-444c-be6d-fa03019baf80)
+  - [Finds the reactor type diversity by country](https://github.com/user-attachments/assets/99f94f98-14d2-4113-bbc6-2de49605579b)
+  - [Finds which countries are supplying the most energy](https://github.com/user-attachments/assets/6178def2-4d42-4711-b0b7-05376cd01d4b)
+  - [Shows the percent dominance in energy by country](https://github.com/user-attachments/assets/e33115e3-7ed0-403f-959c-c27d2a043e42)
+  - [Shows total mwe output per countries reactors](https://github.com/user-attachments/assets/bf55fe72-7c47-49aa-ba8c-c3ac886975ad)
+
+- Visualization
+  - Total reactors for each country:
+    <img width="1000" height="1400" alt="Q4" src="https://github.com/user-attachments/assets/0eb816a1-442e-43f7-ad83-01ef02f042bf" />
+   
+  - Counts reactor type diversity:
+    <img width="1200" height="600" alt="Q7png" src="https://github.com/user-attachments/assets/1d306a63-ac36-462f-b6e4-b9401e8dacca" />
+
+- Interpretation and Use:
+  - We found out the total number of reactors per country and the dominance it has over the total nuclear energy landscape. This is important for understanding which countries value clean energy the most and also may indicate which countries require the most energy. This can be further expanded into finding out which countries in the future may invest more into this energy type and if a nuclear engineer saw this they may think that the United States, China, and France are the best places for job security.
+
+**4. What does the energy output look like for nuclear power?**
+- SQL Query and Raw Data:
+  - [The total MWE (Mega Watts Electrical) produced by nuclear energy worldwide](https://github.com/user-attachments/assets/ebb6a4a8-7486-403b-b39c-9e20f7d4e93a)
+  - [Finds MWE produced per reactor units world wide](https://github.com/user-attachments/assets/59d32550-c936-4d94-8c6e-23f5ae2c54e8)
+  - [Finds the MWE produced for a specefic coolant type](https://github.com/user-attachments/assets/5de369f2-5179-4093-acaa-b62e192b4f88)
+
+- Visualization
+ 
+ 
+- Interpretation and Use:
+  - This section focused on the supplier and operator data. This is a good section for potential investors into nuclear reactors to get a general idea of who owns majority of the reactors and supplies them as well. This can be potentially expanded into finding the financials into reactor data per supplier and operator but for now it's good starting point for general data.
 
   ### How good is the operational performance and efficiency for current nuclear reactors around the world?
 
