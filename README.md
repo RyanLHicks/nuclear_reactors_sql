@@ -110,22 +110,91 @@
 - Interpretation and Use:
   - We found out the total number of reactors per country and the dominance it has over the total nuclear energy landscape. This is important for understanding which countries value clean energy the most and also may indicate which countries require the most energy. This can be further expanded into finding out which countries in the future may invest more into this energy type and if a nuclear engineer saw this they may think that the United States, China, and France are the best places for job security.
 
-**4. What does the energy output look like for nuclear power?**
+### What is the operational performance and efficiency for current nuclear reactors around the world?
+#### **4. What does the energy output look like for nuclear power?**
 - SQL Query and Raw Data:
   - [The total MWE (Mega Watts Electrical) produced by nuclear energy worldwide](https://github.com/user-attachments/assets/ebb6a4a8-7486-403b-b39c-9e20f7d4e93a)
   - [Finds MWE produced per reactor units world wide](https://github.com/user-attachments/assets/59d32550-c936-4d94-8c6e-23f5ae2c54e8)
   - [Finds the MWE produced for a specefic coolant type](https://github.com/user-attachments/assets/5de369f2-5179-4093-acaa-b62e192b4f88)
 
-- Visualization
- 
- 
 - Interpretation and Use:
-  - This section focused on the supplier and operator data. This is a good section for potential investors into nuclear reactors to get a general idea of who owns majority of the reactors and supplies them as well. This can be potentially expanded into finding the financials into reactor data per supplier and operator but for now it's good starting point for general data.
+  - Energy was the focus for this queation where we focused on total output worldwide, coolants associated with energy output, and what each reactor unit could carry for total energy. This gives anyonbe a good understading of how much energy is output and optionally we can look at how much energy is required per country, region, and the world to figure out how many reactors we would need for these to be sustainable.
 
-  ### How good is the operational performance and efficiency for current nuclear reactors around the world?
+#### **5. What nuclear reactor models have in common?**
+- SQL Query and Raw Data:
+  - [Counts total reactor model types around the world](https://github.com/user-attachments/assets/8f1c454a-b8ab-430a-a3bf-f3861b734bf0)
+  - [Finds the most common reactor model type around the world](https://github.com/user-attachments/assets/dc9203f5-666b-4406-a32e-95774d86363b)
+  - [Finds the percentage of reactor model types worldwide](https://github.com/user-attachments/assets/56632f4d-75df-44a8-a9f3-0797b828badf)
+  - [Shows the current top reactor models for each country](https://github.com/user-attachments/assets/90df012d-62a5-4aa8-bfcd-bf646da9d464)
+  - [Shows total mwe output per reactor model](https://github.com/user-attachments/assets/97c0c7ee-c445-4946-ac5d-1a9ead7e9860)
+  - [Shows the highest mwe output per reactor model](https://github.com/user-attachments/assets/ef27c862-be88-43b0-90b2-965cbd89f191)
+
+- Visualization
+  - Most common reactor models:
+    <img width="2102" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e77d0d6-6b5f-492b-993f-544ed7bd4143" />
+   
+  - Reactor models for each country :
+    <img width="1200" height="1000" alt="Q8_2" src="https://github.com/user-attachments/assets/0ffb9dfb-fa3a-4a04-baf2-01d24270af5c" />
+
+  - MWE output for combined reactor models and individual models:
+    <img width="2400" height="800" alt="image" src="https://github.com/user-attachments/assets/10729dab-9127-4f1b-b866-cd1d46229e5b" />
+
+- Interpretation and Use:
+  - This insight is very useful for honing in on specefic reactor models to see which one's can carry out the most energy and what type it's associated with. It's clear to see that France "owns" the most reactor models in the world and China has the top performing individual reactor model. It can be taken further by developing relationships between reactor model, type, and output along with section 1 to find the most effiecent reactor type and draw conclusions there. This section just adds depth in the search for energy effiencey within the nuclear reactor sector to see if it's a viable energy source for the furture.
+ 
+#### **6. How reliable are certain types of nuclear reactors?**
+- SQL Query and Raw Data:
+  - [Shows the total outage time in days for nuclear reactors](https://github.com/user-attachments/assets/092baec0-acac-45bc-98a1-5f126c91f331)
+  - [Finds the least reliable reactor types](https://github.com/user-attachments/assets/6c227105-e855-413a-93b6-89c930837f96)
+  - [Finds the percentage of reactor type outages](https://github.com/user-attachments/assets/4d755b65-5719-4180-a540-aa41a124cf43)
+
+- Visualization
+  - Most common reactor types outages:
+    <img width="2208" height="600" alt="image" src="https://github.com/user-attachments/assets/4f11abb7-b4db-4f75-b613-96af3eef8f23" />
+
+- Interpretation and Use:
+  - We can dive deeper into effiency metrics to see which reactor types cause the most problems and need the most maintanence. Ideally we want that number to be as little as possible to maintain grid connection time for maximum energy consumption to provide to people. We can potentially draw conclusions with energy potential lost in the downtimes per type and see which type is the most effiencnt to keep funding and building because why would want to fund types that are known to have continious issues in run times.
+
 
   ### What is the historical development of nuclear reactors and how does it influence future energy sources?
   
+#### **7. What does history tell us about nuclear reactors?**
+- SQL Query and Raw Data:
+  - [Shows the median construction time for all reactors](https://github.com/user-attachments/assets/02b5be9c-6168-47c8-8931-5685e7af23aa)
+  - [Finds the median contruction time for reactors per country](https://github.com/user-attachments/assets/eda0714c-2239-43fe-8835-f1bed4927d56)
+  - [Finds the median time from power generation to commercialability](https://github.com/user-attachments/assets/51112db7-9743-427a-816e-ff465f6522f5)
+  - [Shows the current longest operational reactors](https://github.com/user-attachments/assets/130ade23-ff37-41e8-a015-8a289dd7d663)
+  - [Shows the current longest commercial reactors](https://github.com/user-attachments/assets/96a5e99d-b09b-454a-9fe9-cbd468f6d769)
+  - [Shows the median lifespan of reactor operation](https://github.com/user-attachments/assets/9f39a7d2-b489-4789-b6da-3b8c65686e02)
+  - [Finds which years had the most grid connections](https://github.com/user-attachments/assets/fa091472-525c-494e-a93e-2665284c2e93)
+  - [Shows which years had the most total connections](https://github.com/user-attachments/assets/e8245e5d-26cf-46aa-b2fb-428bdce06d9d)
+  - [Finds the top reactor construction years](https://github.com/user-attachments/assets/48c21fd5-ad9b-4333-bab3-857ec2f0b2f4)
+  - [Analyzes the operational reactors between 1954 and 1984](https://github.com/user-attachments/assets/50a00dab-e814-4802-bee4-e700aed9463d)
+  - [Analyzes the operational reactors between 1984 and 2014](https://github.com/user-attachments/assets/73bce9a2-8d43-48a9-828b-0769eee84d5d)
+  - [Shows the common reactor types between 2000 and 2010](https://github.com/user-attachments/assets/5b3d937f-9fef-451f-a342-070ec1273c6f)
+  - [Shows the common reactor types between 2010 and 2020](https://github.com/user-attachments/assets/e3435c6f-e9c4-4434-a0f4-6e0e065836fe)
+  - [Shows what reactor types were common in 2012](https://github.com/user-attachments/assets/3a2a7793-5289-4435-a606-331670b72a6b)
+  - [Analyzed the United States' reactor constructions](https://github.com/user-attachments/assets/8873ad7d-4ad8-41e8-9c78-bbaf430f1987)
+  - [Which decade saw the least connections](https://github.com/user-attachments/assets/e8dc7cf1-2297-4ee2-a490-75b745184ee5)
+  - [Compares reactor superpowers of France and the United States continual operation](https://github.com/user-attachments/assets/6794a806-4095-41dc-9d5d-2c4935ca0380)
+  - [Finds the average length of continual operation per country](https://github.com/user-attachments/assets/4d97b2f6-b1b8-4eb8-b91c-29076f7a301c)
+  - [Finds the total continual operation worldwide](https://github.com/user-attachments/assets/10a82789-74e2-477e-895c-2496412333dc)
+  - [Shows which years saw the highest change of nuclear reactor additions](https://github.com/user-attachments/assets/4d06d427-f952-42c6-947f-92751d50bb08)
+  - [Shows each years percent change from the previous](https://github.com/user-attachments/assets/8e78a7ba-02a9-4bd4-95bf-9ecfdda06f9c)
+  - [Finds which decade saw the most connections for a reactor type](https://github.com/user-attachments/assets/af3bee88-22c0-44a0-8bd9-25c5f0dad020)
 
+- Visualization
+  - Most common reactor models:
+    <img width="2102" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e77d0d6-6b5f-492b-993f-544ed7bd4143" />
+   
+  - Reactor models for each country :
+    <img width="1200" height="1000" alt="Q8_2" src="https://github.com/user-attachments/assets/0ffb9dfb-fa3a-4a04-baf2-01d24270af5c" />
+
+  - MWE output for combined reactor models and individual models:
+    <img width="2400" height="800" alt="image" src="https://github.com/user-attachments/assets/10729dab-9127-4f1b-b866-cd1d46229e5b" />
+
+- Interpretation and Use:
+  - This insight is very useful for honing in on specefic reactor models to see which one's can carry out the most energy and what type it's associated with. It's clear to see that France "owns" the most reactor models in the world and China has the top performing individual reactor model. It can be taken further by developing relationships between reactor model, type, and output along with section 1 to find the most effiecent reactor type and draw conclusions there. This section just adds depth in the search for energy effiencey within the nuclear reactor sector to see if it's a viable energy source for the furture.
+ 
   
   
