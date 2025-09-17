@@ -155,9 +155,7 @@
 - Interpretation and Use:
   - We can dive deeper into effiency metrics to see which reactor types cause the most problems and need the most maintanence. Ideally we want that number to be as little as possible to maintain grid connection time for maximum energy consumption to provide to people. We can potentially draw conclusions with energy potential lost in the downtimes per type and see which type is the most effiencnt to keep funding and building because why would want to fund types that are known to have continious issues in run times.
 
-
-  ### What is the historical development of nuclear reactors and how does it influence future energy sources?
-  
+### What is the historical development of nuclear reactors and how does it influence future energy sources?
 #### **7. What does history tell us about nuclear reactors?**
 - SQL Query and Raw Data:
   - [Shows the median construction time for all reactors](https://github.com/user-attachments/assets/02b5be9c-6168-47c8-8931-5685e7af23aa)
@@ -195,5 +193,48 @@
 
 - Interpretation and Use:
   - This section gives a lot of information about the timeline for nuclear reactors and may give some insights to the projection to build new ones. I provided a lot of information that can be exclusive to certain types of questions a nuclear reactor analyst may have for either the past, present or future. This also includes country specefic information regarding timelines. This section is mainly to provide trends and insights to the future production of nucelar reactors. Some historical context as to why around 1980-1990 we saw a general increase of reactors can infered that it was primarily fueld by the cold war involving a increase in nucelar reactors for specefiically their waste materials to make nuclear weapons between Russia and the USA.
+
+#### **8. What is the current status for nuclear power?**
+- SQL Query and Raw Data:
+  - [Finds out how many operational reactors are current and how many have shutdown in the past](https://github.com/user-attachments/assets/8c5fa796-5719-4c3b-9206-8362e97239de)
+  - [Shows the distribution of shutdown and operational reactor types](https://github.com/user-attachments/assets/46386b0f-5f69-42d2-839c-0a42a3d2302a)
+  - [Analyzes the percent of operational and shutdown reactor types](https://github.com/user-attachments/assets/6f57ed69-e1d9-4eb1-9658-d01e945bd3dd)
+  - [Shows which countries have the most shutdown nuclear reactors](https://github.com/user-attachments/assets/3857a18a-8789-4d70-b821-4f94c0de315f)
+
+- Visualilzations:
+  - Operational vs Shutdown reactors count:
+    <img width="1400" height="800" alt="Q19" src="https://github.com/user-attachments/assets/92f39192-c3dd-436c-9ae9-623427a02cce" />
+
+  - Shutdown nuclear reactors count:
+    <img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/f6972ee3-954b-4154-a580-2a6b0689a7fd" />
+
+- Interpretation and Use:
   
-  
+#### **9. Common fuels for nuclear power?**
+- SQL Query and Raw Data:
+  - [Shows the relationship between fuel types and reactor types](https://github.com/user-attachments/assets/2d2ea773-7ff0-4948-ac9e-9f7fb42b0f89)
+  - [Shows the total count of each existing fuel types](https://github.com/user-attachments/assets/fa6f6b62-6e98-4f50-8bd0-d65aa6a36d5b)
+
+- Visualizations:
+  - All fuel types distribution
+  <img width="990" height="590" alt="image" src="https://github.com/user-attachments/assets/817dbe94-e929-4e54-a2ad-97544e0e40a6" />
+
+- Interpretation and Use:
+
+## Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
