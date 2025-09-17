@@ -163,8 +163,8 @@
   - [Shows the median construction time for all reactors](https://github.com/user-attachments/assets/02b5be9c-6168-47c8-8931-5685e7af23aa)
   - [Finds the median contruction time for reactors per country](https://github.com/user-attachments/assets/eda0714c-2239-43fe-8835-f1bed4927d56)
   - [Finds the median time from power generation to commercialability](https://github.com/user-attachments/assets/51112db7-9743-427a-816e-ff465f6522f5)
-  - [Shows the current longest operational reactors](https://github.com/user-attachments/assets/130ade23-ff37-41e8-a015-8a289dd7d663)
-  - [Shows the current longest commercial reactors](https://github.com/user-attachments/assets/96a5e99d-b09b-454a-9fe9-cbd468f6d769)
+  - [Shows the current longest operational reactors](https://github.com/user-attachments/assets/d9a0e5de-b473-4ebe-8bff-77ef5bb61e24)
+  - [Shows the current longest commercial reactors](https://github.com/user-attachments/assets/0fd49431-2160-4c6c-871e-39118a310e4a)
   - [Shows the median lifespan of reactor operation](https://github.com/user-attachments/assets/9f39a7d2-b489-4789-b6da-3b8c65686e02)
   - [Finds which years had the most grid connections](https://github.com/user-attachments/assets/fa091472-525c-494e-a93e-2665284c2e93)
   - [Shows which years had the most total connections](https://github.com/user-attachments/assets/e8245e5d-26cf-46aa-b2fb-428bdce06d9d)
@@ -184,17 +184,16 @@
   - [Finds which decade saw the most connections for a reactor type](https://github.com/user-attachments/assets/af3bee88-22c0-44a0-8bd9-25c5f0dad020)
 
 - Visualization
-  - Most common reactor models:
-    <img width="2102" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e77d0d6-6b5f-492b-993f-544ed7bd4143" />
-   
-  - Reactor models for each country :
-    <img width="1200" height="1000" alt="Q8_2" src="https://github.com/user-attachments/assets/0ffb9dfb-fa3a-4a04-baf2-01d24270af5c" />
+  - Countries and their median contruction time:
+    <img width="989" height="989" alt="image" src="https://github.com/user-attachments/assets/659c78b9-9f5c-49a7-bcbc-fd76785766d4" />
 
-  - MWE output for combined reactor models and individual models:
-    <img width="2400" height="800" alt="image" src="https://github.com/user-attachments/assets/10729dab-9127-4f1b-b866-cd1d46229e5b" />
+  - Percent change of nuclear reactor additions for each year since 1954:
+    <img width="2779" height="1180" alt="q27" src="https://github.com/user-attachments/assets/412856b7-ce32-4567-8e80-9e18d888e7da" />
+
+  - Construction starts yearly:
+    <img width="1400" height="700" alt="Q15_3" src="https://github.com/user-attachments/assets/849aab46-f9a1-4321-9ce1-e25f8f788ad6" />
 
 - Interpretation and Use:
-  - This insight is very useful for honing in on specefic reactor models to see which one's can carry out the most energy and what type it's associated with. It's clear to see that France "owns" the most reactor models in the world and China has the top performing individual reactor model. It can be taken further by developing relationships between reactor model, type, and output along with section 1 to find the most effiecent reactor type and draw conclusions there. This section just adds depth in the search for energy effiencey within the nuclear reactor sector to see if it's a viable energy source for the furture.
- 
+  - This section gives a lot of information about the timeline for nuclear reactors and may give some insights to the projection to build new ones. I provided a lot of information that can be exclusive to certain types of questions a nuclear reactor analyst may have for either the past, present or future. This also includes country specefic information regarding timelines. This section is mainly to provide trends and insights to the future production of nucelar reactors. Some historical context as to why around 1980-1990 we saw a general increase of reactors can infered that it was primarily fueld by the cold war involving a increase in nucelar reactors for specefiically their waste materials to make nuclear weapons between Russia and the USA.
   
   
