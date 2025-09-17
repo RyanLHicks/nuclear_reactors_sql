@@ -221,11 +221,29 @@
 
 - Interpretation and Use:
 
-## Conclusion
+## Conclusion:
 
+### Complex SQL Skills That I Learned More About :
+  - Window functions
+  - Multi Step CTEs
+  - Sub queries
 
+### What I Learned From This Project:
+  - SQL can be used in almost any field with the right data sets.
+  - The wide variety of queries that can be used to find unique questions from large data sets in an instant.
+  - How to extract data effiently using AI and distribute the data it into tables.
+  - Making visualizations and limiting certain queires to give a snap shot.
+  - That aggregation functions are great at finding totals and effiency related statistics while CTEs are great at finding percentages from a whole and percent growth statistics. 
 
+### The Future:
+  #### I hope to continue making SQL projects to subjects that intrest me so I can get a better grasp on this SQL and have fun with various topics. Making this project allowed me to get more comfortable with using SQL in everyday life. I hope to work on other projects that include: organic chemistry, real estate, retial, and hope to make a positive impact for the people around using data to our advantage.   
 
+### Reources Utilized:
+  - DBeaver
+  - PostgreSQL
+  - Git
+  - GitHub
+  - Nuclear Power Reactors In The World (IAEA, 2024)
 
 
 
