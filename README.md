@@ -37,15 +37,33 @@
   ### What are the major demographics and industry leaders for nuclear power since 1954?
   #### **1. What reactor types are most involved in nuclear energy**
 - SQL Query and Raw Data:
-  - [Counts total reactors per type worldwide](https://github.com/user-attachments/assets/aedb2912-e5bb-4f7d-9684-75d586dc36f5)
-  - [Each reactor type for each country](https://github.com/user-attachments/assets/dfd1b897-b28d-4b4d-8379-69ac4d1700e8)
-  - [CTE to find country reactor type percentage of all operational reactors per country](https://github.com/user-attachments/assets/bdd409f1-342e-48e7-a17a-79b62214fdb9)
-  - [Finds the top producing reactor types in MWE](https://github.com/user-attachments/assets/b6cb9c77-b0df-4908-b04d-511f0df98a21)
-  - [Finds the percentage of top producing nuclear reactor types](https://github.com/user-attachments/assets/ef6dc24b-1f69-4ae9-801e-82f2651c242f)
-  - [Searches for the top producing nuclear reactor types per country](https://github.com/user-attachments/assets/1766badb-39e2-432a-8679-5db3b6dc39db)
-  - [Queries the total energy per reactor type](https://github.com/user-attachments/assets/373d5b7a-5162-4570-bb38-9c7b47fb2a8c)
-  - [Finds the top energy output reactor types for the USA](https://github.com/user-attachments/assets/2a8e2160-210b-404a-b9d0-dda5ac709d02)
-  - [Find the top energy output reactor types for top producing countries](https://github.com/user-attachments/assets/20e5b533-1286-4ded-8e89-858eeb0f196f)
+  - [Counts total type of reactors worldwide](https://github.com/user-attachments/assets/aedb2912-e5bb-4f7d-9684-75d586dc36f5):
+  
+    We can see here that Pressureized Water Reactors (PWR) are the most abundant with 298 and there is only one High Temperture Gas Cooled Reactor (HTGR) in operation.
+  - [Each reactor type for each country](https://github.com/user-attachments/assets/dfd1b897-b28d-4b4d-8379-69ac4d1700e8):
+    
+    This data set shows us that the USA, China, and France have the most PWR's worldwide and the USA has the most Boiling Water Reactors (BWR), Canada has the most Pressurized Heavy Water Reactors (PHWR), Russia has the most Light Water Graphite Reactors (LWGR) and the only two Fast Breeder Reactors (FBR), the UK has the only 8 Gas Cooled Reactors (GCR), and China has the only High Temperature Gas Cooled Reactors (HTGR) as well.  
+  - [CTE to find country reactor type percentage of all operational reactors per country](https://github.com/user-attachments/assets/bdd409f1-342e-48e7-a17a-79b62214fdb9):
+    
+    The main point of this query here shows that the USA has the highest share of BWRs and PWRs and the other countries distributions.
+  - [Finds the top producing reactor types in MWE](https://github.com/user-attachments/assets/b6cb9c77-b0df-4908-b04d-511f0df98a21):
+    
+    It's obvious that this query will show that PWR has the highest MWE output with 283,757 MWE because it's the most abundant and the lowest is HTGR of 150 MWE with only one in operation worldwide.
+  - [Finds the percentage of top producing nuclear reactor types](https://github.com/user-attachments/assets/ef6dc24b-1f69-4ae9-801e-82f2651c242f):
+    
+    Expanding the previous query, PWR has a 77% share of total energy while the HTGR only has a .04% energy share.
+  - [Searches for the top producing nuclear reactor types per country](https://github.com/user-attachments/assets/1766badb-39e2-432a-8679-5db3b6dc39db):
+    
+    Though the US has more PWRs in operation, France dominates the total output with 61,370 MWE for their PWRs. This is interesting to see and France may have more effiecent reactors in operation. The US however, dominates the BWR output with 32,709 MWE.
+  - [Queries the total energy per reactor type](https://github.com/user-attachments/assets/373d5b7a-5162-4570-bb38-9c7b47fb2a8c):
+    
+    This query finds intresting statistics, showing that BWRs have the most efficient energy per unit even though PWRs output the most cumulitivly with 1,050 MWE/BWR reactor and 952 MWE/PWR reactor. This can be used to potentially transition the future reactors for BWR but more research must be done in the financial side of things.
+  - [Finds the top energy output reactor types for the USA](https://github.com/user-attachments/assets/2a8e2160-210b-404a-b9d0-dda5ac709d02):
+    
+    This query is just reiteriating the United States' focus on reactor types with BWRs and PWRs as the main sources. 
+  - [Find the top energy output reactor types for top producing countries](https://github.com/user-attachments/assets/20e5b533-1286-4ded-8e89-858eeb0f196f):
+    
+    We are honing in at the top producing nuclear energy countries of USA, France, and China to investigate what reactor types they prioritize over others and their output for each. 
     
 - Visualization
   - Each reactor type for each country:
