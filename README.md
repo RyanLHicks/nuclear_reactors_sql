@@ -86,15 +86,33 @@
 
 #### **2. Who are the reactor suppliers and operators contributing the most?**
 - SQL Query and Raw Data:
-  - [Finds the top nuclear reactor operators](https://github.com/user-attachments/assets/47938609-9f11-4b91-9d8c-6d191ba76d2d)
-  - [CTE to find the percentage of operator share of the total nuclear reactor market](https://github.com/user-attachments/assets/1b05c702-6aeb-4cc6-8537-515f27b9e389)
-  - [Finds the top nuclear reactor suppliers](https://github.com/user-attachments/assets/9f706c23-fac5-4314-8351-4e2d5698505f)
-  - [CTE to find the percentage of supplier share of the total nuclear reactor market](https://github.com/user-attachments/assets/481e7934-81a5-4daa-9e0f-dcc7712524a8)
-  - [Finds top suppliers for nuclear reactor type](https://github.com/user-attachments/assets/25fcbff4-0c2f-48aa-a3da-dd96d6e35e26)
-  - [Finds top operators for nuclear reactor type](https://github.com/user-attachments/assets/5fd2952a-3608-4da8-90da-0b3c79515780)
-  - [Finds the relationships between reactor suppliers and operators](https://github.com/user-attachments/assets/8dbd4a81-8df7-4957-9d4c-8efa9c331a84)
-  - [Finds the relationships between reactor suppliers and operators in the USA](https://github.com/user-attachments/assets/d6a2dd33-68ef-4b85-a945-749df0dc4899)
-  - [Find the suppliers contributing the most nuclear energy](https://github.com/user-attachments/assets/820df88a-4d65-4b72-bf4e-a638975d97c1)
+  - [Finds the top nuclear reactor operators](https://github.com/user-attachments/assets/47938609-9f11-4b91-9d8c-6d191ba76d2d):
+ 
+    This shows us that Electricite De France is the top operator worldwide with 56 current operational reactors.
+  - [CTE to find the percentage of operator share of the total nuclear reactor market](https://github.com/user-attachments/assets/1b05c702-6aeb-4cc6-8537-515f27b9e389):
+
+    This further explains the dominance that Electricite De France has around the world, owning 13.75% of total reactors. 
+  - [Finds the top nuclear reactor suppliers](https://github.com/user-attachments/assets/9f706c23-fac5-4314-8351-4e2d5698505f):
+ 
+    This shows us that Framatome and Westinghouse Electric Corp. are the top suppliers around the world, supplying 65 and 64 total reactors around the world.
+  - [CTE to find the percentage of supplier share of the total nuclear reactor market](https://github.com/user-attachments/assets/481e7934-81a5-4daa-9e0f-dcc7712524a8):
+ 
+    This further explains the dominance that Framatome and Westinghouse Electric Corp has around the world, supplying 15.97% and 15.72% of total reactors. 
+  - [Finds top suppliers for nuclear reactor type](https://github.com/user-attachments/assets/a035b9f2-13da-4697-84d7-5d47d5bfc120):
+ 
+    We can see that the suppliers are further broken down into their reactor type where Framatome and Westinghouse supplies all PWRs. By analyzing this with the supplier list, we can see that most suppliers only produce one reactor type, however, Atomenergomash supplies FBRs, PWRs and LWGRs. 
+  - [Finds top operators for nuclear reactor type]("https://github.com/user-attachments/assets/029c807f-b098-4481-94d0-b6297517234a):
+ 
+    This does the same analysis for reactor type but for the operator side of things and tells a different story of operators being variable to one reactor type. The operators that deviate are the Joint Stock Company operates, FBRs,  PWRs and LWGRs, Korea Hydro and Nuclear Power Co operating PWRs and PHWRs, CNNC Nuclear Operation Management Company that operate PHWRs and PWRs, EDF energy operates GCRs and PWRs, Nuclear Power Corperation of India operates PHWRs and PWRs, .Energry Nuclear Operations, Exelon, First Energy Nuclear, Northen States Power, Progress Energy, PSEG Nuclear, Southern Nuclear, Tennesse Valley Authority, Teollisuuden Voima OYJ all share a mix of BWRs and PWRs.
+  - [Finds the relationships between reactor suppliers and operators](https://github.com/user-attachments/assets/8dbd4a81-8df7-4957-9d4c-8efa9c331a84):
+ 
+    This is an intresting analysis of showing what suppliers interact with operators. We can see that Framatome and Electricte De France have a tight relationship having supplied them all 56 of their reactors. Doing more research, Electricite De France is a majority owner of Framatome. We can also see this relationship between  Joint Stock Company and Atomenergomash, where  Atomenergomash basically owns the operator. One example where the two aren't closely related in business is between General Electric as the supplier and Exelon the operator in the US.    
+  - [Finds the relationships between reactor suppliers and operators in the USA](https://github.com/user-attachments/assets/d6a2dd33-68ef-4b85-a945-749df0dc4899):
+ 
+    After analyzing the relationships between suppliers and operators just in the USA, it's clear that General Electric and Westinghouse Electric are at the top of the food chain in suppliers. Exelon remains the top operator in the USA.
+  - [Find the suppliers contributing the most nuclear energy](https://github.com/user-attachments/assets/820df88a-4d65-4b72-bf4e-a638975d97c1):
+ 
+    Looking at this briefly it's easy to see that Electricte De France remains the top operator with producing 61,370 MWE out of France and the next top operator is about half that at 27,727 MWE coming from Joint Stock Company out of Russia.  
 
 - Visualization
   - Nuclear reactors by operator:
