@@ -101,7 +101,7 @@
   - [Finds top suppliers for nuclear reactor type](https://github.com/user-attachments/assets/a035b9f2-13da-4697-84d7-5d47d5bfc120):
  
     We can see that the suppliers are further broken down into their reactor type where Framatome and Westinghouse supplies all PWRs. By analyzing this with the supplier list, we can see that most suppliers only produce one reactor type, however, Atomenergomash supplies FBRs, PWRs and LWGRs. 
-  - [Finds top operators for nuclear reactor type]("https://github.com/user-attachments/assets/029c807f-b098-4481-94d0-b6297517234a):
+  - [Finds top operators for nuclear reactor type](https://github.com/user-attachments/assets/029c807f-b098-4481-94d0-b6297517234a):
  
     This does the same analysis for reactor type but for the operator side of things and tells a different story of operators being variable to one reactor type. The operators that deviate are the Joint Stock Company operates, FBRs,  PWRs and LWGRs, Korea Hydro and Nuclear Power Co operating PWRs and PHWRs, CNNC Nuclear Operation Management Company that operate PHWRs and PWRs, EDF energy operates GCRs and PWRs, Nuclear Power Corperation of India operates PHWRs and PWRs, .Energry Nuclear Operations, Exelon, First Energy Nuclear, Northen States Power, Progress Energy, PSEG Nuclear, Southern Nuclear, Tennesse Valley Authority, Teollisuuden Voima OYJ all share a mix of BWRs and PWRs.
   - [Finds the relationships between reactor suppliers and operators](https://github.com/user-attachments/assets/8dbd4a81-8df7-4957-9d4c-8efa9c331a84):
