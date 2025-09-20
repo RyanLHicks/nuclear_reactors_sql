@@ -45,7 +45,7 @@
     This data set shows us that the USA, China, and France have the most PWR's worldwide and the USA has the most Boiling Water Reactors (BWR), Canada has the most Pressurized Heavy Water Reactors (PHWR), Russia has the most Light Water Graphite Reactors (LWGR) and the only two Fast Breeder Reactors (FBR), the UK has the only 8 Gas Cooled Reactors (GCR), and China has the only High Temperature Gas Cooled Reactors (HTGR) as well.  
   - [CTE to find country reactor type percentage of all operational reactors per country](https://github.com/user-attachments/assets/bdd409f1-342e-48e7-a17a-79b62214fdb9):
     
-    The main point of this query here shows that the USA has the highest share of BWRs and PWRs and the other countries distributions.
+    This query here shows that the USA has the highest share of BWRs and PWRs and the other countries distributions.
   - [Finds the top producing reactor types in MWE](https://github.com/user-attachments/assets/b6cb9c77-b0df-4908-b04d-511f0df98a21):
     
     It's obvious that this query will show that PWR has the highest MWE output with 283,757 MWE because it's the most abundant and the lowest is HTGR of 150 MWE with only one in operation worldwide.
