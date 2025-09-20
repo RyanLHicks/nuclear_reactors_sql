@@ -268,14 +268,30 @@
  
     I found out that the common types of reactors in operation in this period was mainly PWRs with a mix of FBRs and PHWRs.
   - [Shows what reactor types were common in 2012](https://github.com/user-attachments/assets/3a2a7793-5289-4435-a606-331670b72a6b)
+ 
+    Shows that 3 PWR reactors were in operation for 2012
   - [Analyzed the United States' reactor constructions](https://github.com/user-attachments/assets/8873ad7d-4ad8-41e8-9c78-bbaf430f1987)
+ 
+    We can see that 1968 was a hot year for nuclear reactors, building 27 total.
   - [Which decade saw the least connections](https://github.com/user-attachments/assets/e8dc7cf1-2297-4ee2-a490-75b745184ee5)
+ 
+    Seen that in 1950 there was only 11 total connections, this is during the start of nuclear reactor energy so this makes sense.
   - [Compares reactor superpowers of France and the United States continual operation](https://github.com/user-attachments/assets/6794a806-4095-41dc-9d5d-2c4935ca0380)
+ 
+    I wanted to compare the two most generative countries which are the USA and France to see which one has the longest average operational lifespan and we can see that the USA beats France by 4 year, with 44 and 40 years in average operation respectively.  
   - [Finds the average length of continual operation per country](https://github.com/user-attachments/assets/4d97b2f6-b1b8-4eb8-b91c-29076f7a301c)
+ 
+    I also wanted to see how this was broken down for each country and the Netherlands has the highest operational average lifespan of 52 years. It's also interesting to note that the Netherlands also was the shortest time to complete construction for their nuclear reactors. 
   - [Finds the total continual operation worldwide](https://github.com/user-attachments/assets/10a82789-74e2-477e-895c-2496412333dc)
+ 
+    This operation took the worldwide reactors' lifespan into account which was 33 years of average operation.
   - [Shows which years saw the highest change of nuclear reactor additions](https://github.com/user-attachments/assets/4d06d427-f952-42c6-947f-92751d50bb08)
-  - [Shows each years percent change from the previous](https://github.com/user-attachments/assets/8e78a7ba-02a9-4bd4-95bf-9ecfdda06f9c)
+ 
+    This complex operation found that in 1980 we saw a total of 13 new reactor additions which is the most historically.
+  
   - [Finds which decade saw the most connections for a reactor type](https://github.com/user-attachments/assets/af3bee88-22c0-44a0-8bd9-25c5f0dad020)
+ 
+    After running this, we can see that the highest grossing nuclear reactor addition decade was 1980, with total 127 total additions.
 
 - Visualization
   - Countries and their median contruction time:
@@ -293,9 +309,17 @@
 #### **8. What is the current status for nuclear power?**
 - SQL Query and Raw Data:
   - [Finds out how many operational reactors are current and how many have shutdown in the past](https://github.com/user-attachments/assets/8c5fa796-5719-4c3b-9206-8362e97239de)
+ 
+    We can see that there are 412 total operational reactors and 209 shutdown reactors worldwide.
   - [Shows the distribution of shutdown and operational reactor types](https://github.com/user-attachments/assets/46386b0f-5f69-42d2-839c-0a42a3d2302a)
+ 
+    This is showing how many of each reactor type is shutdown vs operational. We can see that there are more PWRs operational and shutdown than any other type.
   - [Analyzes the percent of operational and shutdown reactor types](https://github.com/user-attachments/assets/6f57ed69-e1d9-4eb1-9658-d01e945bd3dd)
+ 
+    This shows that Heavy-Water Moderated, Boiling Light-Water Cooled Reactor (HWLWR), Heavy-Water Moderated, Gas Cooled Reactor (HWGCR), Steam Generating Heavy-Water Reactor (SGHWR), and Other (X) reactors are permanetly shutdown and non are in current operation. The highest shutdown operational type is GCRs which have a 84% shutdown rate.
   - [Shows which countries have the most shutdown nuclear reactors](https://github.com/user-attachments/assets/3857a18a-8789-4d70-b821-4f94c0de315f)
+ 
+    We can see the country with the most shutdown reactors and the USA leads that statistic with 41% of reactors shutdown permanetaly. 
 
 - Visualilzations:
   - Operational vs Shutdown reactors count:
@@ -309,7 +333,11 @@
 #### **9. Common fuels for nuclear power?**
 - SQL Query and Raw Data:
   - [Shows the relationship between fuel types and reactor types](https://github.com/user-attachments/assets/2d2ea773-7ff0-4948-ac9e-9f7fb42b0f89)
+ 
+    This just shows the cross relationship many fuels have with the reactor types. We can see that Enriched Uranium Oxide is the most common and interacts with LWGRs, GCRs, PWRs, and BWRs.
   - [Shows the total count of each existing fuel types](https://github.com/user-attachments/assets/fa6f6b62-6e98-4f50-8bd0-d65aa6a36d5b)
+ 
+    To no suprise UO2 is assosiated with the most reactors because it's used in PWRs, the most common reactor type.
 
 - Visualizations:
   - All fuel types distribution
