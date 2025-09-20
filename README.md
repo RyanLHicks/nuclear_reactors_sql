@@ -130,11 +130,21 @@
 
 #### **3. What countries are most involved with nuclear energy?**
 - SQL Query and Raw Data:
-  - [Counts total reactors per country and percent dominance](https://github.com/user-attachments/assets/103206b6-51dc-444c-be6d-fa03019baf80)
-  - [Finds the reactor type diversity by country](https://github.com/user-attachments/assets/99f94f98-14d2-4113-bbc6-2de49605579b)
-  - [Finds which countries are supplying the most energy](https://github.com/user-attachments/assets/6178def2-4d42-4711-b0b7-05376cd01d4b)
+  - [Counts total reactors per country and percent dominance](https://github.com/user-attachments/assets/103206b6-51dc-444c-be6d-fa03019baf80):
+ 
+    Displays how many reactors each country has and the percent overall. The USA leads all operational reactors with 89 and that equates to 21.8% share overall, and the next top country is france with 56 and a 13.7% total share.
+  - [Finds the reactor type diversity by country](https://github.com/user-attachments/assets/99f94f98-14d2-4113-bbc6-2de49605579b):
+ 
+    We can see through this query the diversity of reactor types between each country and we can see that China and Russia are the most diversified countries for reactor types with 3 different.
+  - [Finds which countries are supplying the most energy](https://github.com/user-attachments/assets/6178def2-4d42-4711-b0b7-05376cd01d4b):
+ 
+    This will show the total output in MWE for each country and the USA takes the lead with 90,781 total output in MWE.
   - [Shows the percent dominance in energy by country](https://github.com/user-attachments/assets/e33115e3-7ed0-403f-959c-c27d2a043e42)
-  - [Shows total mwe output per countries reactors](https://github.com/user-attachments/assets/bf55fe72-7c47-49aa-ba8c-c3ac886975ad)
+ 
+    The query expands the previous query by extrapolating the energy percent share and the USA has a 24.9% total share of total nuclear energy worldwide.
+  - [Shows total mwe output per countries reactors](https://github.com/user-attachments/assets/bf55fe72-7c47-49aa-ba8c-c3ac886975ad):
+ 
+    We can dive deeper into the energy produced by country by dividing the energy output for each country by their total reactors. The top three nuclear energy producing countries were used and France has 1,095 MWE per reactor, the USA has 1,020 MWE per reactor, and China is 966 MWE per reactor. This ultimatley shows how efficent each country is per reactor. 
 
 - Visualization
   - Total reactors for each country:
@@ -149,9 +159,15 @@
 ### What is the operational performance and efficiency for current nuclear reactors around the world?
 #### **4. What does the energy output look like for nuclear power?**
 - SQL Query and Raw Data:
-  - [The total MWE (Mega Watts Electrical) produced by nuclear energy worldwide](https://github.com/user-attachments/assets/ebb6a4a8-7486-403b-b39c-9e20f7d4e93a)
+  - [The total MWE (Mega Watts Electrical) produced by nuclear energy worldwide](https://github.com/user-attachments/assets/ebb6a4a8-7486-403b-b39c-9e20f7d4e93a):
+ 
+    Using this query we can see how much total nuclear energy is produced worldwide and it's 364,640 MWE
   - [Finds MWE produced per reactor units world wide](https://github.com/user-attachments/assets/59d32550-c936-4d94-8c6e-23f5ae2c54e8)
+
+    Finds that the total nuclear reactor energy generation per model is 895 MWE. Dividing net reactor output / net reactors 
   - [Finds the MWE produced for a specefic coolant type](https://github.com/user-attachments/assets/5de369f2-5179-4093-acaa-b62e192b4f88)
+ 
+    Most energy is produced using light water coolant which is 334,261 MWE.
 
 - Interpretation and Use:
   - Energy was the focus for this queation where we focused on total output worldwide, coolants associated with energy output, and what each reactor unit could carry for total energy. This gives anyonbe a good understading of how much energy is output and optionally we can look at how much energy is required per country, region, and the world to figure out how many reactors we would need for these to be sustainable.
@@ -159,12 +175,24 @@
 #### **5. What nuclear reactor models have in common?**
 - SQL Query and Raw Data:
   - [Counts total reactor model types around the world](https://github.com/user-attachments/assets/8f1c454a-b8ab-430a-a3bf-f3861b734bf0)
-  - [Finds the most common reactor model type around the world](https://github.com/user-attachments/assets/dc9203f5-666b-4406-a32e-95774d86363b)
-  - [Finds the percentage of reactor model types worldwide](https://github.com/user-attachments/assets/56632f4d-75df-44a8-a9f3-0797b828badf)
-  - [Shows the current top reactor models for each country](https://github.com/user-attachments/assets/90df012d-62a5-4aa8-bfcd-bf646da9d464)
-  - [Shows total mwe output per reactor model](https://github.com/user-attachments/assets/97c0c7ee-c445-4946-ac5d-1a9ead7e9860)
-  - [Shows the highest mwe output per reactor model](https://github.com/user-attachments/assets/ef27c862-be88-43b0-90b2-965cbd89f191)
 
+    Dissecting the nuclear reactors even further, we find that there are 83 total unique reactor models supplied globally.
+  - [Finds the most common reactor model type around the world](https://github.com/user-attachments/assets/dc9203f5-666b-4406-a32e-95774d86363b):
+
+    After finding the unique models, we see that the VVER-V320 is the most supplied model with 25 in current operation. We also see that it is a PWR.
+  - [Finds the percentage of reactor model types worldwide](https://github.com/user-attachments/assets/56632f4d-75df-44a8-a9f3-0797b828badf)
+ 
+    When seeing that the VVER-V320 is the most popular we can find that the percentage is equal to 30% of total models.
+  - [Shows the current top reactor models for each country](https://github.com/user-attachments/assets/90df012d-62a5-4aa8-bfcd-bf646da9d464)
+ 
+    We can break this down even further finding the model types belonging to each country and we see that the P4 REP 1300 is the most exclusive to an individual country which is France. 
+  - [Shows total mwe output per reactor model](https://github.com/user-attachments/assets/97c0c7ee-c445-4946-ac5d-1a9ead7e9860)
+
+    Furthering the research in model types, we can find their individual total eletricity generation where the P4 REP 1300 has the highest of 26,370 MWE and the VVER-V320 comes in second with 24,080 MWE even though it is the most popular reactor model worldwide. 
+  - [Shows the highest mwe output per reactor name](https://github.com/user-attachments/assets/ef27c862-be88-43b0-90b2-965cbd89f191)
+
+    This shows what the top individual reactors worldwide can output and the TAISHAN-1 and TAISHAN-2 coming from China, output the most MWE at 1,660.
+     
 - Visualization
   - Most common reactor models:
     <img width="2102" height="1000" alt="image" src="https://github.com/user-attachments/assets/2e77d0d6-6b5f-492b-993f-544ed7bd4143" />
@@ -181,9 +209,15 @@
 #### **6. How reliable are certain types of nuclear reactors?**
 - SQL Query and Raw Data:
   - [Shows the total outage time in days for nuclear reactors](https://github.com/user-attachments/assets/092baec0-acac-45bc-98a1-5f126c91f331)
+ 
+    This information provides how much outage time is attributed to all reactors worldwide and it totals 429 days or 1.17 years of downtime and lost energy.
   - [Finds the least reliable reactor types](https://github.com/user-attachments/assets/6c227105-e855-413a-93b6-89c930837f96)
+ 
+    Finds how reliable and which reactor types are down the most. The FBRs and GCRs are the types with the most time and energy wasted with 113 days and 95 days respectivley.
   - [Finds the percentage of reactor type outages](https://github.com/user-attachments/assets/4d755b65-5719-4180-a540-aa41a124cf43)
 
+    We just find the total percentage each reactor type has in downtime and the FBRs and GCRs have 26% and 22% respectivley.
+     
 - Visualization
   - Most common reactor types outages:
     <img width="2208" height="600" alt="image" src="https://github.com/user-attachments/assets/4f11abb7-b4db-4f75-b613-96af3eef8f23" />
@@ -195,18 +229,44 @@
 #### **7. What does history tell us about nuclear reactors?**
 - SQL Query and Raw Data:
   - [Shows the median construction time for all reactors](https://github.com/user-attachments/assets/02b5be9c-6168-47c8-8931-5685e7af23aa)
+
+    After using this query we find that on average it takes about 6 years from start to finish to build a reactor.
   - [Finds the median contruction time for reactors per country](https://github.com/user-attachments/assets/eda0714c-2239-43fe-8835-f1bed4927d56)
+ 
+    When running this query we see that the Netherlands takes the shortest amount to build their reactors with a time of 3.7 years, beating the global average by 2.3 years. 
   - [Finds the median time from power generation to commercialability](https://github.com/user-attachments/assets/51112db7-9743-427a-816e-ff465f6522f5)
+ 
+    We can see from this that the time the nuclear reactor is able to produce energy to commercialability is 5 years. Using this information with the median construction time we can see that the average time from start to finish for commercial generation is 11 years from the first date of construction.
   - [Shows the current longest operational reactors](https://github.com/user-attachments/assets/d9a0e5de-b473-4ebe-8bff-77ef5bb61e24)
+ 
+    After analyzing this dataset we can see that the BEZNAU-1 from Switzerland is the longest lasting reactor being built on July 17th 1969.
   - [Shows the current longest commercial reactors](https://github.com/user-attachments/assets/0fd49431-2160-4c6c-871e-39118a310e4a)
+ 
+    More information shows that from this dataset we can see that again the BEZNAU-1 from Switzerland is the longest lasting commercial reactor after availability on December 24th 1969.
   - [Shows the median lifespan of reactor operation](https://github.com/user-attachments/assets/9f39a7d2-b489-4789-b6da-3b8c65686e02)
+ 
+    When taking the shutdown date and subtracting the values by commercial operation date while finding the median and converting it to years, we can see that the median operation lifespan for nuclear reactors in the past has been 31.7 years.
   - [Finds which years had the most grid connections](https://github.com/user-attachments/assets/fa091472-525c-494e-a93e-2665284c2e93)
+
+    I want to know what was the most popular year for connections world wide and after developing the query I was able to find that 1984 and 1985 was the peak with 33 connections each year. I believe this rapid influx of connections was due to the cold war incentive of stockpiling uranium for nuclear warheads. 
   - [Shows which years had the most total connections](https://github.com/user-attachments/assets/e8245e5d-26cf-46aa-b2fb-428bdce06d9d)
+ 
+    According to this query we can see that in 2005 we had a peak of 440 total operational reactors and since then it has steadily decreased, meaning that for reasons later explored, they were either shutdown or there are not being any more contributions to nuclear reactor constructions.
   - [Finds the top reactor construction years](https://github.com/user-attachments/assets/48c21fd5-ad9b-4333-bab3-857ec2f0b2f4)
+ 
+    With this query we can see that in 1976 saw a peak of 43 reactor constructions and in 1995 there was 0 constructions worldwide.
   - [Analyzes the operational reactors between 1954 and 1984](https://github.com/user-attachments/assets/50a00dab-e814-4802-bee4-e700aed9463d)
+ 
+    After running this query I found that between 1954 and 1984 there was 143 operational reactors between 3 decades.
   - [Analyzes the operational reactors between 1984 and 2014](https://github.com/user-attachments/assets/73bce9a2-8d43-48a9-828b-0769eee84d5d)
+ 
+    After running a similar query the previous I found that between 1984 and 2014 there was 223 operational reactors between 3 decades.
   - [Shows the common reactor types between 2000 and 2010](https://github.com/user-attachments/assets/5b3d937f-9fef-451f-a342-070ec1273c6f)
-  - [Shows the common reactor types between 2010 and 2020](https://github.com/user-attachments/assets/e3435c6f-e9c4-4434-a0f4-6e0e065836fe)
+ 
+    I found out that the common types of reactors in operation in this period was PWRs and PHWRs.
+  - [Shows the common reactor types between 2010 and 2020](https://github.com/user-attachments/assets/e3435c6f-e9c4-4434-a0f4-6e0e065836fe):
+ 
+    I found out that the common types of reactors in operation in this period was mainly PWRs with a mix of FBRs and PHWRs.
   - [Shows what reactor types were common in 2012](https://github.com/user-attachments/assets/3a2a7793-5289-4435-a606-331670b72a6b)
   - [Analyzed the United States' reactor constructions](https://github.com/user-attachments/assets/8873ad7d-4ad8-41e8-9c78-bbaf430f1987)
   - [Which decade saw the least connections](https://github.com/user-attachments/assets/e8dc7cf1-2297-4ee2-a490-75b745184ee5)
