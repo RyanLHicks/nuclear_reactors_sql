@@ -3,7 +3,7 @@
 ## Introduction
 
 **Background**
-- Why I'm doing this: I want to practice and enhance my SQL skills and explore the landscape of nuclear reactors around the world. This project will allow me to master SQL queries and comprehend the scope of nuclear reactors around the world
+- Why I'm doing this: I want to practice and enhance my SQL skills and explore the landscape of nuclear reactors around the world. This project will allow me to master SQL queries and comprehend the scope of nuclear reactors around the world. I want to see the real world applications of SQL and visualization tools.
 - Why I'm interested in nuclear energy: I beleive that understanding nuclear reactors now will allow me to be positioned greatly for the future search of clean and reliable energy. 
 - Why I'm interested in SQL: Using SQL will allow me to leverage mass amounts of important data to make intelligent desicions for my personal, professional, and general interest topics such as nuclear energy, healthcare, technology, financial markets, and many other applications that will fuel my life.
 
