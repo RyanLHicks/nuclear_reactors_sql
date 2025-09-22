@@ -3,19 +3,25 @@
 ## Introduction
 
 **Background**
-- Why I'm doing this: I want to practice and enhance my SQL skills and explore the landscape of nuclear reactors around the world. This project will allow me to master SQL queries and comprehend the scope of nuclear reactors around the world. I want to see the real world applications of SQL and visualization tools.
-- Why I'm interested in nuclear energy: I beleive that understanding nuclear reactors now will allow me to be positioned greatly for the future search of clean and reliable energy. 
-- Why I'm interested in SQL: Using SQL will allow me to leverage mass amounts of important data to make intelligent desicions for my personal, professional, and general interest topics such as nuclear energy, healthcare, technology, financial markets, and many other applications that will fuel my life.
+- Why I'm doing this: I want to practice and enhance my SQL skills while exploring the interesting landscape of nuclear reactors around the world. This will allow me to see the real-world applications and questions that SQL and visualization tools can answer that anyone may have about nuclear reactors or really any topic. 
+- Why I'm interested in nuclear energy: I believe that understanding nuclear reactors now will allow me to be positioned greatly for the future search of clean and reliable energy. If I can comprehend the scale of nuclear reactors now, I hope to learn and apply further knowledge of chemistry to enhance energy sources for the future.   
+- Why I'm interested in SQL: Using SQL will allow us to leverage mass amounts of important data to make intelligent decisions for personal, professional, and general interest topics such as nuclear energy, healthcare, technology, financial markets, and many other applications that will fuel our lives. Understanding these concepts now will set up an excellent future for myself and others to make quick interpretations about the past to enhance future innovation.
+  
+**Setup, Procedures and Data**
+
+I am creating my own tables through data from the International Atomic Energy Association (IAEA) and will implement it in the SQL database called PostgreSQL. After setting this data up, I will use Dbeaver to carry out SQL queries that answer a wide variety of questions relating to nuclear reactors and energy. When these queries are finally carried out, I will export the raw data into CSV format and use an AI chatbot to quickly visualize the data using bar graphs, line charts, and scatter plots for quick interpretation. The main functions used during this project include multi-step CTEs, joins, sub queries, and window functions to be as specific as possible when dissecting this data and hope it has some use for the future. 
 
 **Major Topics Addressed**
 - Reactor Demographics and Industry Leaders
 - Operational Performance and Efficiency
 - Historical Development Trends
-  
-**Tables and Data**
+
+**ERD and Tables**
 - ERD
   
   <img width="632" height="671" alt="Screenshot 2025-08-26 143710" src="https://github.com/user-attachments/assets/8a500eec-3c04-470e-898b-f47b2e704f57" />
+
+_You can crtl + click on each underlined link to open up a seperate tab for extra information_
 
 - Tables:
   * [Operational Reactors](https://github.com/user-attachments/assets/2a108d77-0b85-4d7f-b109-26c4672b216f) (MAIN TABLE) - Shows the current reactors in operation with country, name, reactor type, model, energy capacity, connection date. Connects with operators, suppliers, fuel, coolant, and type.
@@ -30,8 +36,6 @@
   * [Annual Global Summary](https://github.com/user-attachments/assets/ea910ae4-5a0a-4249-8de6-7ed8d55148f8) (MAIN TABLE) : Shows the year, commercial operation reactor units, reactor construction starts, reactor grid connection units, energy ammount for connection, and energy ammount for commercial operation date
  
   * [Outage Statistics 2023](https://github.com/user-attachments/assets/c6368c2e-1ce1-43dc-b6a6-d1d6e63535d4) (MAIN TABLE) : Shows the reactor type, number of units, outage hours per unit, planned outage percent, unplanned outage percent. and external outage percent
-
-- Data:
   
   ## Questions
   ### What are the major demographics and industry leaders for nuclear power since 1954?
@@ -39,13 +43,13 @@
 - SQL Query and Raw Data:
   - [Counts total type of reactors worldwide](https://github.com/user-attachments/assets/aedb2912-e5bb-4f7d-9684-75d586dc36f5):
   
-    We can see here that Pressureized Water Reactors (PWR) are the most abundant with 298 and there is only one High Temperture Gas Cooled Reactor (HTGR) in operation.
-  - [Each reactor type for each country](https://github.com/user-attachments/assets/dfd1b897-b28d-4b4d-8379-69ac4d1700e8):
+    We can see here that Pressurized Water Reactors (PWR) are the most abundant with 298 and there is only one High Temperature Gas Cooled Reactor (HTGR) in operation.
+ - [Each reactor type for each country](https://github.com/user-attachments/assets/dfd1b897-b28d-4b4d-8379-69ac4d1700e8):
     
     This data set shows us that the USA, China, and France have the most PWR's worldwide and the USA has the most Boiling Water Reactors (BWR), Canada has the most Pressurized Heavy Water Reactors (PHWR), Russia has the most Light Water Graphite Reactors (LWGR) and the only two Fast Breeder Reactors (FBR), the UK has the only 8 Gas Cooled Reactors (GCR), and China has the only High Temperature Gas Cooled Reactors (HTGR) as well.  
   - [CTE to find country reactor type percentage of all operational reactors per country](https://github.com/user-attachments/assets/bdd409f1-342e-48e7-a17a-79b62214fdb9):
     
-    This query here shows that the USA has the highest share of BWRs and PWRs and the other countries distributions.
+    We can see that the USA has the highest share of BWRs and PWRs and the other countries distributions with a 75% and 19% share respectively.
   - [Finds the top producing reactor types in MWE](https://github.com/user-attachments/assets/b6cb9c77-b0df-4908-b04d-511f0df98a21):
     
     It's obvious that this query will show that PWR has the highest MWE output with 283,757 MWE because it's the most abundant and the lowest is HTGR of 150 MWE with only one in operation worldwide.
@@ -54,16 +58,16 @@
     Expanding the previous query, PWR has a 77% share of total energy while the HTGR only has a .04% energy share.
   - [Searches for the top producing nuclear reactor types per country](https://github.com/user-attachments/assets/1766badb-39e2-432a-8679-5db3b6dc39db):
     
-    Though the US has more PWRs in operation, France dominates the total output with 61,370 MWE for their PWRs. This is interesting to see and France may have more effiecent reactors in operation. The US however, dominates the BWR output with 32,709 MWE.
+    Though the US has more PWRs in operation, France dominates the total output with 61,370 MWE for their PWRs. This is interesting to see, and France may have more efficient reactors in operation. The US however, dominates the BWR output with 32,709 MWE.
   - [Queries the total energy per reactor type](https://github.com/user-attachments/assets/373d5b7a-5162-4570-bb38-9c7b47fb2a8c):
     
-    This query finds intresting statistics, showing that BWRs have the most efficient energy per unit even though PWRs output the most cumulitivly with 1,050 MWE/BWR reactor and 952 MWE/PWR reactor. This can be used to potentially transition the future reactors for BWR but more research must be done in the financial side of things.
+    This query finds interesting statistics, showing that BWRs have the most efficient energy per unit even though PWRs output the most cumulatively with 1,050 MWE/BWR reactor and 952 MWE/PWR reactors. This can be used to potentially transition the future reactors for BWR but more research must be done on the financial side of things.
   - [Finds the top energy output reactor types for the USA](https://github.com/user-attachments/assets/2a8e2160-210b-404a-b9d0-dda5ac709d02):
     
-    This query is just reiteriating the United States' focus on reactor types with BWRs and PWRs as the main sources. 
+    This query is just reiterating that the United States' focus on reactor types with BWRs and PWRs as the main sources. 
   - [Find the top energy output reactor types for top producing countries](https://github.com/user-attachments/assets/20e5b533-1286-4ded-8e89-858eeb0f196f):
     
-    We are honing in at the top producing nuclear energy countries of USA, France, and China to investigate what reactor types they prioritize over others and their output for each. 
+    We are honing in at the top producing nuclear energy countries of USA, France, and China to investigate what reactor types they prioritize over others and their output for each. USA channels BWRs and PWRs, France likes PWRs only and China is in with PHWRs, PWRs, and HTGRs
     
 - Visualization
   - Each reactor type for each country:
@@ -81,9 +85,15 @@
   - Total energy production per reactor type
     <img width="1000" height="600" alt="Q20" src="https://github.com/user-attachments/assets/0e03ef1f-f745-462c-b772-5bef6fbf998a" />
 
-- Interpretation and Use:
-  - This section focused on the reactor types and was incredibily insightful to which reactor types the world and each country priotizes. It is clear that pressurized water reactors are the top choice for a lot of countries. Now we can investigate that further as to why, is it cost effective, safe, or really effiecent at using resources for energy? This is a great first step into discovering the nuclear energy landscape. 
+- Main Points:
+1. PWRs are the most abundant and outputs the most energy worldwide.
+2. USA leads the march in total reactors and PWRs, but France has the most PWR energy output.
+3. BWRs are the most efficient.
 
+- Interpretation and Use:
+  
+  This section focused on the reactor types and was incredibly insightful to which reactor types are preferred around the world and country. Pressurized water reactors are the top choice for a lot of countries and have the most output by a large margin. Now we can investigate that further as to why, is it cost effective, safe, or efficient at using resources for energy? We can also ask, why are other countries developing these other non-traditional reactor types? Finding out which reactor types are most popular is a great first step into discovering the nuclear energy landscape.
+    
 #### **2. Who are the reactor suppliers and operators contributing the most?**
 - SQL Query and Raw Data:
   - [Finds the top nuclear reactor operators](https://github.com/user-attachments/assets/47938609-9f11-4b91-9d8c-6d191ba76d2d):
