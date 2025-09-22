@@ -3,7 +3,7 @@
 ## Introduction
 
 **Background**
-- Why I'm doing this: I want to practice and enhance my SQL skills while exploring the interesting landscape of nuclear reactors around the world. This will allow me to see the real-world applications and questions that SQL and visualization tools can answer that anyone may have about nuclear reactors or really any topic. 
+- Why I'm doing this: I want to practice and enhance my SQL skills while exploring the interesting landscape of nuclear reactors around the world. This will allow me to see the real-world applications and questions that SQL and visualization tools can answer that anyone may have about topics. 
 - Why I'm interested in nuclear energy: I believe that understanding nuclear reactors now will allow me to be positioned greatly for the future search of clean and reliable energy. If I can comprehend the scale of nuclear reactors now, I hope to learn and apply further knowledge of chemistry to enhance energy sources for the future.   
 - Why I'm interested in SQL: Using SQL will allow us to leverage mass amounts of important data to make intelligent decisions for personal, professional, and general interest topics such as nuclear energy, healthcare, technology, financial markets, and many other applications that will fuel our lives. Understanding these concepts now will set up an excellent future for myself and others to make quick interpretations about the past to enhance future innovation.
   
@@ -44,7 +44,7 @@ _You can crtl + click on each underlined link to open up a seperate tab for extr
   - [Counts total type of reactors worldwide](https://github.com/user-attachments/assets/aedb2912-e5bb-4f7d-9684-75d586dc36f5):
   
     We can see here that Pressurized Water Reactors (PWR) are the most abundant with 298 and there is only one High Temperature Gas Cooled Reactor (HTGR) in operation.
- - [Each reactor type for each country](https://github.com/user-attachments/assets/dfd1b897-b28d-4b4d-8379-69ac4d1700e8):
+  - [Each reactor type for each country](https://github.com/user-attachments/assets/dfd1b897-b28d-4b4d-8379-69ac4d1700e8):
     
     This data set shows us that the USA, China, and France have the most PWR's worldwide and the USA has the most Boiling Water Reactors (BWR), Canada has the most Pressurized Heavy Water Reactors (PHWR), Russia has the most Light Water Graphite Reactors (LWGR) and the only two Fast Breeder Reactors (FBR), the UK has the only 8 Gas Cooled Reactors (GCR), and China has the only High Temperature Gas Cooled Reactors (HTGR) as well.  
   - [CTE to find country reactor type percentage of all operational reactors per country](https://github.com/user-attachments/assets/bdd409f1-342e-48e7-a17a-79b62214fdb9):
@@ -91,38 +91,37 @@ _You can crtl + click on each underlined link to open up a seperate tab for extr
 3. BWRs are the most efficient.
 
 - Interpretation and Use:
-  
-  This section focused on the reactor types and was incredibly insightful to which reactor types are preferred around the world and country. Pressurized water reactors are the top choice for a lot of countries and have the most output by a large margin. Now we can investigate that further as to why, is it cost effective, safe, or efficient at using resources for energy? We can also ask, why are other countries developing these other non-traditional reactor types? Finding out which reactor types are most popular is a great first step into discovering the nuclear energy landscape.
+    - This section focused on the reactor types and was incredibly insightful to which reactor types are preferred around the world and country. Pressurized water reactors are the top choice for a lot of countries and have the most output by a large margin. Now we can investigate that further as to why, is it cost effective, safe, or efficient at using resources for energy? We can also ask, why are other countries developing these other non-traditional reactor types? Finding out which reactor types are most popular is a great first step into discovering the nuclear energy landscape.
     
 #### **2. Who are the reactor suppliers and operators contributing the most?**
 - SQL Query and Raw Data:
   - [Finds the top nuclear reactor operators](https://github.com/user-attachments/assets/47938609-9f11-4b91-9d8c-6d191ba76d2d):
  
-    This shows us that Electricite De France is the top operator worldwide with 56 current operational reactors.
+    Électricité De France is the top operator worldwide with 56 current operational reactors.
   - [CTE to find the percentage of operator share of the total nuclear reactor market](https://github.com/user-attachments/assets/1b05c702-6aeb-4cc6-8537-515f27b9e389):
 
-    This further explains the dominance that Electricite De France has around the world, owning 13.75% of total reactors. 
+    The dominance that Électricité De France has around the world, owning 13.75% of total reactors. 
   - [Finds the top nuclear reactor suppliers](https://github.com/user-attachments/assets/9f706c23-fac5-4314-8351-4e2d5698505f):
  
-    This shows us that Framatome and Westinghouse Electric Corp. are the top suppliers around the world, supplying 65 and 64 total reactors around the world.
+    Framatome and Westinghouse Electric Corp. are the top suppliers around the world, supplying 65 and 64 total reactors around the world.
   - [CTE to find the percentage of supplier share of the total nuclear reactor market](https://github.com/user-attachments/assets/481e7934-81a5-4daa-9e0f-dcc7712524a8):
  
-    This further explains the dominance that Framatome and Westinghouse Electric Corp has around the world, supplying 15.97% and 15.72% of total reactors. 
+    The dominance that Framatome and Westinghouse Electric Corp has around the world, supplying 15.97% and 15.72% of total reactors. 
   - [Finds top suppliers for nuclear reactor type](https://github.com/user-attachments/assets/a035b9f2-13da-4697-84d7-5d47d5bfc120):
  
-    We can see that the suppliers are further broken down into their reactor type where Framatome and Westinghouse supplies all PWRs. By analyzing this with the supplier list, we can see that most suppliers only produce one reactor type, however, Atomenergomash supplies FBRs, PWRs and LWGRs. 
+    The suppliers are further broken down into their reactor type where Framatome and Westinghouse supply all PWRs. By analyzing this with the supplier list, we can see that most suppliers only produce one reactor type, however, Atomenergomash supplies FBRs, PWRs and LWGRs. 
   - [Finds top operators for nuclear reactor type](https://github.com/user-attachments/assets/029c807f-b098-4481-94d0-b6297517234a):
  
-    This does the same analysis for reactor type but for the operator side of things and tells a different story of operators being variable to one reactor type. The operators that deviate are the Joint Stock Company operates, FBRs,  PWRs and LWGRs, Korea Hydro and Nuclear Power Co operating PWRs and PHWRs, CNNC Nuclear Operation Management Company that operate PHWRs and PWRs, EDF energy operates GCRs and PWRs, Nuclear Power Corperation of India operates PHWRs and PWRs, .Energry Nuclear Operations, Exelon, First Energy Nuclear, Northen States Power, Progress Energy, PSEG Nuclear, Southern Nuclear, Tennesse Valley Authority, Teollisuuden Voima OYJ all share a mix of BWRs and PWRs.
+    This does the same analysis for reactor type but for the operator side of things and tells a different story of operators being variable to one reactor type. The operators that deviate are the Joint Stock Company operates, FBRs,  PWRs and LWGRs, Korea Hydro and Nuclear Power Cooperating PWRs and PHWRs, CNNC Nuclear Operation Management Company that operate PHWRs and PWRs, EDF energy operates GCRs and PWRs, Nuclear Power Corporation of India operates PHWRs and PWRs. Energy Nuclear Operations, Exelon, First Energy Nuclear, Northen States Power, Progress Energy, PSEG Nuclear, Southern Nuclear, Tennessee Valley Authority, Teollisuuden Voima OYJ all share a mix of BWRs and PWRs.
   - [Finds the relationships between reactor suppliers and operators](https://github.com/user-attachments/assets/8dbd4a81-8df7-4957-9d4c-8efa9c331a84):
  
-    This is an intresting analysis of showing what suppliers interact with operators. We can see that Framatome and Electricte De France have a tight relationship having supplied them all 56 of their reactors. Doing more research, Electricite De France is a majority owner of Framatome. We can also see this relationship between  Joint Stock Company and Atomenergomash, where  Atomenergomash basically owns the operator. One example where the two aren't closely related in business is between General Electric as the supplier and Exelon the operator in the US.    
+    This is an interesting analysis showing what suppliers interact with operators. We can see that Framatome and Électricité De France have a tight relationship having supplied them all 56 of their reactors. Doing more research, Électricité De France is a majority owner of Framatome. We can also see this relationship between Joint Stock Company and Atomenergomash, where Atomenergomash owns their operator. One example where the two aren't closely related in business is General Electric as the supplier and Exelon the operator in the US.    
   - [Finds the relationships between reactor suppliers and operators in the USA](https://github.com/user-attachments/assets/d6a2dd33-68ef-4b85-a945-749df0dc4899):
  
     After analyzing the relationships between suppliers and operators just in the USA, it's clear that General Electric and Westinghouse Electric are at the top of the food chain in suppliers. Exelon remains the top operator in the USA.
   - [Find the suppliers contributing the most nuclear energy](https://github.com/user-attachments/assets/820df88a-4d65-4b72-bf4e-a638975d97c1):
  
-    Looking at this briefly it's easy to see that Electricte De France remains the top operator with producing 61,370 MWE out of France and the next top operator is about half that at 27,727 MWE coming from Joint Stock Company out of Russia.  
+    Looking at this briefly, it's easy to see that Électricité De France remains the top operator with producing 61,370 MWE out of France and the next top operator is about half that at 27,727 MWE coming from Joint Stock Company out of Russia.  
 
 - Visualization
   - Nuclear reactors by operator:
@@ -134,28 +133,32 @@ _You can crtl + click on each underlined link to open up a seperate tab for extr
   - Nuclear reactors by supplier and operator relationships
    <img width="3159" height="1180" alt="image" src="https://github.com/user-attachments/assets/80698c40-2539-41f4-ac67-6be9c14510b5" />
 
- 
+- Main Points
+1. Électricité De France is a champion nuclear operator.
+2. Framatome and Westinghouse Electric Corp. are the heavyweights for reactor supply.
+3. Many suppliers usually stick to one reactor type, while many operators mix and match reactor types.
+
 - Interpretation and Use:
-  - This section focused on the supplier and operator data. This is a good section for potential investors into nuclear reactors to get a general idea of who owns majority of the reactors and supplies them as well. This can be potentially expanded into finding the financials into reactor data per supplier and operator but for now it's good starting point for general data.
+  - This section focused on the supplier and operator data. This is a good section for potential investors into nuclear reactors to get a general idea of who owns majority of the reactors and supplies them as well. This can potentially expand into finding the financials into reactor data per supplier and operator but for now it's good starting point for general data. We can ask questions like; how would we compete with established operators and suppliers? Why do operators and suppliers use specific materials, is it based on their location and material availability? How do certain supplier-operator relationships work? This section is essential to understand the business side of things relating to nuclear reactors.
 
 #### **3. What countries are most involved with nuclear energy?**
 - SQL Query and Raw Data:
   - [Counts total reactors per country and percent dominance](https://github.com/user-attachments/assets/103206b6-51dc-444c-be6d-fa03019baf80):
  
-    Displays how many reactors each country has and the percent overall. The USA leads all operational reactors with 89 and that equates to 21.8% share overall, and the next top country is france with 56 and a 13.7% total share.
+    The USA leads all operational reactors with 89 and that equates to 21.8% share overall, and the next top country is France with 56 and a 13.7% total share.
   - [Finds the reactor type diversity by country](https://github.com/user-attachments/assets/99f94f98-14d2-4113-bbc6-2de49605579b):
  
-    We can see through this query the diversity of reactor types between each country and we can see that China and Russia are the most diversified countries for reactor types with 3 different.
+    China and Russia are the most diversified countries for reactor types with 3 different for each.
   - [Finds which countries are supplying the most energy](https://github.com/user-attachments/assets/6178def2-4d42-4711-b0b7-05376cd01d4b):
  
-    This will show the total output in MWE for each country and the USA takes the lead with 90,781 total output in MWE.
+    USA takes the lead with 90,781 total output in MWE.
   - [Shows the percent dominance in energy by country](https://github.com/user-attachments/assets/e33115e3-7ed0-403f-959c-c27d2a043e42)
  
     The query expands the previous query by extrapolating the energy percent share and the USA has a 24.9% total share of total nuclear energy worldwide.
   - [Shows total mwe output per countries reactors](https://github.com/user-attachments/assets/bf55fe72-7c47-49aa-ba8c-c3ac886975ad):
  
-    We can dive deeper into the energy produced by country by dividing the energy output for each country by their total reactors. The top three nuclear energy producing countries were used and France has 1,095 MWE per reactor, the USA has 1,020 MWE per reactor, and China is 966 MWE per reactor. This ultimatley shows how efficent each country is per reactor. 
-
+  We can dive deeper into the energy produced by country by dividing the energy output for each country by their total reactors. The top three nuclear energy producing countries were used and France has 1,095 MWE per reactor, the USA has 1,020 MWE per reactor, and China is 966 MWE per reactor. This ultimately shows how efficient each country is per reactor.
+  
 - Visualization
   - Total reactors for each country:
     <img width="1000" height="1400" alt="Q4" src="https://github.com/user-attachments/assets/0eb816a1-442e-43f7-ad83-01ef02f042bf" />
@@ -163,24 +166,32 @@ _You can crtl + click on each underlined link to open up a seperate tab for extr
   - Counts reactor type diversity:
     <img width="1200" height="600" alt="Q7png" src="https://github.com/user-attachments/assets/1d306a63-ac36-462f-b6e4-b9401e8dacca" />
 
+- Main Points:
+1. The USA has the most operational reactors and total energy output.
+2. China and Russia lead the way for unique reactor types and experimentation.
+3. Nuclear reactor powerhouses include: United States, France, and China.
+   
 - Interpretation and Use:
-  - We found out the total number of reactors per country and the dominance it has over the total nuclear energy landscape. This is important for understanding which countries value clean energy the most and also may indicate which countries require the most energy. This can be further expanded into finding out which countries in the future may invest more into this energy type and if a nuclear engineer saw this they may think that the United States, China, and France are the best places for job security.
+  - We found out the leverage each country has in nuclear energy. This is important for understanding which countries value clean energy the most and also may indicate which countries require the most energy. This can be further expanded into finding out which countries in the future may invest more into this energy type and if a nuclear engineer saw this they may think that the United States, China, and France are the best places for job security. This can potentially bring jobs to various countries and increase quality of living for the citizens. 
 
 ### What is the operational performance and efficiency for current nuclear reactors around the world?
 #### **4. What does the energy output look like for nuclear power?**
 - SQL Query and Raw Data:
   - [The total MWE (Mega Watts Electrical) produced by nuclear energy worldwide](https://github.com/user-attachments/assets/ebb6a4a8-7486-403b-b39c-9e20f7d4e93a):
  
-    Using this query we can see how much total nuclear energy is produced worldwide and it's 364,640 MWE
+    Total nuclear energy produced worldwide is 364,640 MWE
   - [Finds MWE produced per reactor units world wide](https://github.com/user-attachments/assets/59d32550-c936-4d94-8c6e-23f5ae2c54e8)
 
-    Finds that the total nuclear reactor energy generation per model is 895 MWE. Dividing net reactor output / net reactors 
+    Nuclear reactor energy generation per model is 895 MWE. Dividing net reactor output / net reactors 
   - [Finds the MWE produced for a specefic coolant type](https://github.com/user-attachments/assets/5de369f2-5179-4093-acaa-b62e192b4f88)
  
-    Most energy is produced using light water coolant which is 334,261 MWE.
+    Most energy producing coolant is using light water coolant.
+
+- Main Points:
+1. Nuclear reactor generation per reactor is 895 MWE.
 
 - Interpretation and Use:
-  - Energy was the focus for this queation where we focused on total output worldwide, coolants associated with energy output, and what each reactor unit could carry for total energy. This gives anyonbe a good understading of how much energy is output and optionally we can look at how much energy is required per country, region, and the world to figure out how many reactors we would need for these to be sustainable.
+  - Energy was the focus for this question where we focused on total output worldwide, coolants associated with energy output, and what each reactor unit could carry for total energy. This gives anyone a good understanding of how much energy is output and optionally we can look at how much energy is required per country, region, and the world to figure out how many reactors we would need for these to be sustainable. We can expand this by asking; What is the energy requirement average for each country and how is that compared to the total generation for nuclear reactors? By using the reactor generation per model, how many nuclear reactors would we need to supply a region, country, or the world? 
 
 #### **5. What nuclear reactor models have in common?**
 - SQL Query and Raw Data:
