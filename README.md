@@ -361,7 +361,7 @@ This gives insight into the history of nuclear reactors and how many have been s
   <img width="990" height="590" alt="image" src="https://github.com/user-attachments/assets/817dbe94-e929-4e54-a2ad-97544e0e40a6" />
 
 - #### **🔑 Interpretation and Use:**
-We can see through this analysis the common types of coolants associated with nuclear reactors and helps suppliers and operators understand what their main sources of coolant is for their reactors. I would ask further: Are non-PWR coolants more complicated than other coolants? Is there a reason why certain coolants are used vs. others for these reactors?
+We can see through this analysis the common types of coolants associated with nuclear reactors and help suppliers and operators understand what their main sources of coolants are for their reactors. I would ask further: Are non-PWR coolants more complicated than other coolants? Is there a reason why certain coolants are used vs. others for these reactors?
 
 ## Conclusion:
 
@@ -369,17 +369,18 @@ We can see through this analysis the common types of coolants associated with nu
   - Window functions
   - Multi Step CTEs
   - Sub queries
+  - Joins
 
 ### ⚙️ What I Learned From This Project:
   - SQL can be used in almost any field with the right data sets.
   - The wide variety of queries that can be used to find unique questions from large data sets in an instant.
   - How to extract data effiently using AI and distribute the data it into tables.
   - Making visualizations and limiting certain queires to give a snap shot.
-  - That aggregation functions are great at finding totals and effiency related statistics while CTEs are great at finding percentages from a whole and percent growth statistics. 
+  - That aggregation functions are great at finding totals and effiency related statistics while CTEs are great at finding percentages from a whole and percent growth statistics.
 
 ### 🔭 The Future:
-  #### I hope to continue making SQL projects to subjects that intrest me so I can get a better grasp on this SQL and have fun with various topics. Making this project allowed me to get more comfortable with using SQL in everyday life. I hope to work on other projects that include: organic chemistry, real estate, retial, and hope to make a positive impact for the people around using data to our advantage.   
-
+  #### I hope to continue making SQL projects to subjects that interest me so I can get a better grasp on this SQL and have fun with various topics. Making this project allowed me to get more comfortable with using SQL in everyday life. I hope to work on other projects that include organic chemistry, real estate, retail, and hope to make a positive impact for the people around using data to our advantage. Though nuclear reactors is incredibly niche, I can generalize the questions asked here and translate similar processes in data extraction to broader and more real-life job-related scenarios with retail, technology, and logistics.
+  
 ### 🧰 Reources Utilized:
   - DBeaver
   - PostgreSQL
