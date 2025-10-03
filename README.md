@@ -396,7 +396,7 @@ We can see through this analysis the common types of coolants associated with nu
   - VS Code
 
 #### 💻Sources
-  - Nuclear Power Reactors In The World (IAEA, 2024)
+  - [Nuclear Power Reactors In The World (IAEA, 2024)](https://github.com/RyanLHicks/nuclear_reactors_sql/blob/main/operational_reactors/Data/RDS-2_44.pdf)
 
 
 
