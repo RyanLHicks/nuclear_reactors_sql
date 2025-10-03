@@ -2,26 +2,27 @@
 
 ## Introduction
 
-#### **Background**
-- Why I'm doing this: I want to practice and enhance my SQL skills while exploring the interesting landscape of nuclear reactors around the world. This will allow me to see the real-world applications and questions that SQL and visualization tools can answer that anyone may have about topics. 
-- Why I'm interested in nuclear energy: I believe that understanding nuclear reactors now will allow me to be positioned greatly for the future search of clean and reliable energy. If I can comprehend the scale of nuclear reactors now, I hope to learn and apply further knowledge of chemistry to enhance energy sources for the future.   
-- Why I'm interested in SQL: Using SQL will allow us to leverage mass amounts of important data to make intelligent decisions for personal, professional, and general interest topics such as nuclear energy, healthcare, technology, financial markets, and many other applications that will fuel our lives. Understanding these concepts now will set up an excellent future for myself and others to make quick interpretations about the past to enhance future innovation.
-  
-#### **Setup, Procedures and Data**
+#### **🗂️Background**
+- I am using the project for SQL practice, as I am trying to learn the big 4 data analysis and visualization programs: SQL, Power BI, Python, and Excel. I took an intrest in nuclear energy recently and wanted to uncover the current landscape and see what I can learn from it and SQL provides the right tools to do so. I will use data from the 2023 IAEA nuclear reactor data set and provide a comprehensive list of statistics and data points for nuclear energy around the world. 
+   
+#### **📋Setup, Procedures and Data**
+- First, I extracted data from the 2023 IAEA nuclear energy data set into tables in my PostgreSQL local server using dbeaver.
+- I then devised multiple questions to be answered for analysis.
+- Using dbeaver, I went through and answered each question to uncover the landscape.
+- Then I used gemini to visualize the raw data.
+- Finally, I interpreted the visualizations.
+ 
+#### **⚡️Major Topics Addressed**
+- Reactor Demographics and Industry Leaders
+- Operational Performance and Efficiency
+- Historical Development Trends
 
-I am creating my own tables through data from the International Atomic Energy Association (IAEA) and will implement it in the SQL database called PostgreSQL. After setting this data up, I will use Dbeaver to carry out SQL queries that answer a wide variety of questions relating to nuclear reactors and energy. When these queries are finally carried out, I will export the raw data into CSV format and use an AI chatbot to quickly visualize the data using bar graphs, line charts, and scatter plots for quick interpretation. The main functions used during this project include multi-step CTEs, joins, sub queries, and window functions to be as specific as possible when dissecting this data and hope it has some use for the future. Each section contains the raw sql query/data, visualizations, main points, and data interpretation/extrapolation.
-
-#### **Major Topics Addressed**
-⚙️Reactor Demographics and Industry Leaders
-⚡️Operational Performance and Efficiency
-🔎 Historical Development Trends
-
-#### **ERD and Tables**
+#### **🔢ERD and Tables**
 - ERD
   
   <img width="632" height="671" alt="Screenshot 2025-08-26 143710" src="https://github.com/user-attachments/assets/8a500eec-3c04-470e-898b-f47b2e704f57" />
 
-_You can crtl + click on each underlined link to open up a seperate tab for extra information_
+You can crtl + click on each underlined link to open up a seperate tab for extra information_
 
 - Tables:
   * [Operational Reactors](https://github.com/user-attachments/assets/2a108d77-0b85-4d7f-b109-26c4672b216f) (MAIN TABLE) - Shows the current reactors in operation with country, name, reactor type, model, energy capacity, connection date. Connects with operators, suppliers, fuel, coolant, and type.
@@ -365,29 +366,32 @@ We can see through this analysis the common types of coolants associated with nu
 
 ## Conclusion:
 
-### Complex SQL Skills That I Learned More About :
+#### 🧩Complex SQL Skills That I Learned More About :
   - Window functions
   - Multi Step CTEs
   - Sub queries
   - Joins
 
-### ⚙️ What I Learned From This Project:
+#### ⚙️What I Learned From This Project:
   - SQL can be used in almost any field with the right data sets.
   - The wide variety of queries that can be used to find unique questions from large data sets in an instant.
   - How to extract data effiently using AI and distribute the data it into tables.
   - Making visualizations and limiting certain queires to give a snap shot.
   - That aggregation functions are great at finding totals and effiency related statistics while CTEs are great at finding percentages from a whole and percent growth statistics.
 
-### 🔭 The Future:
+#### 🔭 The Future:
   #### I hope to continue making SQL projects to subjects that interest me so I can get a better grasp on this SQL and have fun with various topics. Making this project allowed me to get more comfortable with using SQL in everyday life. I hope to work on other projects that include organic chemistry, real estate, retail, and hope to make a positive impact for the people around using data to our advantage. Though nuclear reactors is incredibly niche, I can generalize the questions asked here and translate similar processes in data extraction to broader and more real-life job-related scenarios with retail, technology, and logistics.
   
-### 🧰 Reources Utilized:
+#### 🧰 Reources Utilized:
   - DBeaver
   - PostgreSQL
   - Git
   - GitHub
   - VS Code
+
+#### 💻Sources
   - Nuclear Power Reactors In The World (IAEA, 2024)
+
 
 
 
