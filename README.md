@@ -39,8 +39,10 @@ You can crtl + click on each underlined link to open up a seperate tab for extra
   * [Outage Statistics 2023](https://github.com/user-attachments/assets/c6368c2e-1ce1-43dc-b6a6-d1d6e63535d4) (MAIN TABLE) : Shows the reactor type, number of units, outage hours per unit, planned outage percent, unplanned outage percent. and external outage percent
   
   ## Questions
-  ### 🧫 <ins>What are the major demographics and industry leaders for nuclear power since 1954?</ins>
-  #### **🏭 What reactor types are most involved in nuclear energy**
+  ### <ins>What are the major demographics and industry leaders for nuclear power since 1954?</ins>
+
+  #### **What reactor types are most involved in nuclear energy**
+
 - #### **📏 SQL Query and Raw Data:**
   - [Counts total type of reactors worldwide](https://github.com/user-attachments/assets/aedb2912-e5bb-4f7d-9684-75d586dc36f5):
   
@@ -175,8 +177,10 @@ You can crtl + click on each underlined link to open up a seperate tab for extra
 - #### **🔑 Interpretation and Use:**
   - We found out the leverage each country has in nuclear energy. This is important for understanding which countries value clean energy the most and also may indicate which countries require the most energy. This can be further expanded into finding out which countries in the future may invest more into this energy type and if a nuclear engineer saw this they may think that the United States, China, and France are the best places for job security. This can potentially bring jobs to various countries and increase quality of living for the citizens. 
 
-### 🧫 <ins>What is the operational performance and efficiency for current nuclear reactors around the world?</ins>
+### <ins>What is the operational performance and efficiency for current nuclear reactors around the world?</ins>
+
 #### **4. What does the energy output look like for nuclear power?**
+
 -  #### **📏 SQL Query and Raw Data:**
   - [The total MWE (Mega Watts Electrical) produced by nuclear energy worldwide](https://github.com/user-attachments/assets/ebb6a4a8-7486-403b-b39c-9e20f7d4e93a):
  
@@ -233,8 +237,10 @@ You can crtl + click on each underlined link to open up a seperate tab for extra
 - #### **🔑 Interpretation and Use:**
   - This insight is very useful for honing in on specific reactor models to see which one can carry out the most energy and what type it's associated with. It's clear to see that France "owns" the most reactor models in the world and China has the top performing individual reactor model. It can be taken further by developing relationships between reactor model, type, and output along with section 1 to find the most efficient reactor type and draw conclusions there. This section just adds depth in the search for energy efficiency within the nuclear reactor sector to see if it's a viable energy source for the future. I would ask questions like: What makes the P4 REP 1300 so powerful? How can I develop these models into more efficient models for the future?
      
-### 🧫 <ins>What is the historical development of nuclear reactors and how does it influence future energy sources?</ins>
+### <ins>What is the historical development of nuclear reactors and how does it influence future energy sources?</ins>
+
 #### **6. What does history tell us about nuclear reactors?**
+
 -  #### **📏 SQL Query and Raw Data:**
   - [Shows the median construction time for all reactors](https://github.com/user-attachments/assets/02b5be9c-6168-47c8-8931-5685e7af23aa)
 
